@@ -1,6 +1,6 @@
 {
   "name": "vue-warehouse",
-  "version": "0.1.0",
+  "version": "0.1.0a",
   "description": "Cross-browser storage for Vue.js",
   "main": "dist/vue-warehouse.common.js",
   "unpkg": "dist/vue-warehouse.umd.js",
@@ -11,7 +11,12 @@
   "bugs": {
     "url": "http://github.com/bazzite/vue-burger-menu/issues"
   },
-  "homepage": "https://github.com/bazzite/vue-burger-menu#readme",
+  "homepage": "https://www.bazzite.com/docs/vue-warehouse",
+  "files": [
+    "src",
+    "dist",
+    "nuxt"
+  ],
   "scripts": {
     "start": "npm run dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
@@ -19,10 +24,21 @@
     "lint": "eslint --ext .js src test/unit",
     "build": "npm run build:umd && npm run build:common",
     "build:umd": "cross-env NODE_ENV=production webpack --config build/webpack.config.umd.js --mode production --progress --hide-modules",
-    "build:common": "cross-env NODE_ENV=production webpack --config build/webpack.config.common.js --mode production --progress --hide-modules"
+    "build:common": "cross-env NODE_ENV=production webpack --config build/webpack.config.common.js --mode production --progress --hide-modules",
+    "deploy": "yarn lint && yarn test && yarn build && npm publish"
   },
   "keywords": [
-    "vue-warehouse"
+    "bazzite",
+    "vue-warehouse",
+    "vue",
+    "vue.js",
+    "nuxt",
+    "nuxt.js",
+    "localstorage",
+    "cookie",
+    "cross-browser",
+    "storage",
+    "vue-plugin"
   ],
   "author": "Julio Marquez <j@bazzite.com>",
   "license": "MIT",
