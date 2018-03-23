@@ -12,6 +12,7 @@ install: npm install
 before_script:
   - npm prune
 script:
+  - yarn lint
   - yarn test
   - yarn build
 branches:
