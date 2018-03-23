@@ -32,9 +32,3 @@ const VueWarehouse = {
 }
 
 export default VueWarehouse
-
-if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(VueWarehouse, {
-    store: window.store
-  })
-}
