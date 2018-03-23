@@ -15,5 +15,7 @@ script:
   - yarn lint
   - yarn test
   - yarn build
+after_success:
+  - yarn report-coverage
 branches:
   only: develop
