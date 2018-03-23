@@ -1,6 +1,6 @@
 {
   "name": "vue-warehouse",
-  "version": "0.1.0a",
+  "version": "0.1.0b",
   "description": "Cross-browser storage for Vue.js",
   "main": "dist/vue-warehouse.common.js",
   "unpkg": "dist/vue-warehouse.umd.js",
