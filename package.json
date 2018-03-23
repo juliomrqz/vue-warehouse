@@ -1,0 +1,37 @@
+{
+	"name": "vue-warehouse",
+	"version": "0.1.0",
+	"description": "Cross-browser storage for Vue.js",
+	"main": "dist/vue-warehouse.common.js",
+	"unpkg": "dist/vue-warehouse.browser.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/bazzite/vue-burger-menu.git"
+	},
+	"bugs": {
+		"url": "http://github.com/bazzite/vue-burger-menu/issues"
+	},
+	"homepage": "https://github.com/bazzite/vue-burger-menu#readme",
+	"scripts": {
+		"build": "npm run build:browser && npm run build:common",
+		"build:browser": "cross-env NODE_ENV=production webpack --config config/webpack.config.browser.js --mode production --progress --hide-modules",
+		"build:common": "cross-env NODE_ENV=production webpack --config config/webpack.config.common.js --mode production --progress --hide-modules"
+	},
+	"keywords": [
+		"vue-warehouse"
+	],
+	"author": "Julio Marquez <j@bazzite.com>",
+	"license": "MIT",
+	"dependencies": {},
+	"devDependencies": {
+		"babel-core": "^6.26.0",
+		"babel-loader": "^7.1.4",
+		"babel-plugin-transform-runtime": "^6.23.0",
+		"babel-preset-env": "^1.6.1",
+		"cross-env": "^5.1.4",
+		"uglifyjs-webpack-plugin": "^1.2.4",
+		"webpack": "^4.2.0",
+		"webpack-cli": "^2.0.13",
+		"webpack-merge": "^4.1.2"
+	}
+}
