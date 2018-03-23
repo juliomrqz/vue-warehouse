@@ -22,7 +22,7 @@
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "test": "npm run unit",
     "lint": "eslint --ext .js src test/unit",
-    "report-coverage": "cat ./coverage/lcov.info | ./node_modules/.bin/codecov",
+    "report-coverage": "cat ./test/unit/coverage/lcov.info | ./node_modules/.bin/codecov",
     "build": "npm run build:umd && npm run build:common",
     "build:umd": "cross-env NODE_ENV=production webpack --config build/webpack.config.umd.js --mode production --progress --hide-modules",
     "build:common": "cross-env NODE_ENV=production webpack --config build/webpack.config.common.js --mode production --progress --hide-modules",
