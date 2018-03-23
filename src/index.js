@@ -1,3 +1,5 @@
+import Warehouse from './warehouse'
+
 const VueWarehouse = {
   install (
     Vue,
@@ -8,26 +10,10 @@ const VueWarehouse = {
       storages: null
     }
   ) {
-    let store = options.store
-    const engine = options.engine
+    const warehouse = Warehouse(options)
 
-    if (!store && !engine) {
-      throw new Error("You must define the 'store' or 'engine' option")
-    }
-
-    if (!options.storages) {
-      // Add plugins
-      if (options.plugins) {
-        options.plugins.forEach(plugin => {
-          store.addPlugin(plugin)
-        })
-      }
-    } else {
-      store = engine.createStore(options.storages, options.plugins)
-    }
-
-    Vue.prototype.$warehouse = store
-    Vue.warehouse = store
+    Vue.prototype.$warehouse = warehouse
+    Vue.warehouse = warehouse
   }
 }
 
