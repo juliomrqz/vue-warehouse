@@ -1,0 +1,18 @@
+sudo: false
+language: node_js
+cache:
+  directories:
+    - ~/.npm
+notifications:
+  email: false
+node_js:
+  - "6"
+  - "8"
+install: yarn install
+before_script:
+  - npm prune
+script:
+  - yarn test
+  - yarn build
+branches:
+  only: develop

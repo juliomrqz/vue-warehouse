@@ -451,6 +451,11 @@ __pycache__/
 
 # End of https://www.gitignore.io/api/osx,node,linux,windows,sublimetext,visualstudio
 
-# Exclude demo directory
-demo
-/e2e/
+/dist/
+/test/unit/coverage/
+
+# Editor directories and files
+.vscode
+*.ntvs*
+*.njsproj
+*.sln

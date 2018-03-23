@@ -2,14 +2,18 @@
 
 [WORK IN PROGRESS] Cross-browser storage for Vue.js
 
-To start:
+## Build Setup
 
-```bash
-$ yarn install
-```
+``` bash
+# install dependencies
+yarn install
 
-To build your plugin:
+# build for production with minification
+yarn run build
 
-```bash
-$ yarn run build
+# run unit tests
+yarn run unit
+
+# run all tests
+yarn test
 ```
