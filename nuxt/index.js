@@ -1,7 +1,7 @@
 /*
-  Nuxt.js module for bootstrap-vue
+  Nuxt.js module for vue-warehouse
   Usage:
-    - Install both bootstrap and bootstrap-vue packages
+    - Install vue-warehouse
     - Add this into your nuxt.config.js file:
     {
       modules: [
@@ -9,15 +9,8 @@
       ],
       warehouse: {
         store: 'store',
-        engine: 'store/src/store-engine',
         plugins: [
-          'store/plugins/expire',
-          'store/plugins/defaults',
-          '~/utils/custom-plugin.js',
-        ],
-        storages: [
-          'store/storages/localStorage',
-          'store/storages/cookieStorage'
+          'store/plugins/expire'
         ]
       }
     }
