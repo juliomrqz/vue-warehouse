@@ -8,7 +8,7 @@ notifications:
 node_js:
   - "6"
   - "8"
-install: yarn install
+install: npm install
 before_script:
   - npm prune
 script:
