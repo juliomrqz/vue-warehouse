@@ -6,10 +6,10 @@
   "unpkg": "dist/vue-warehouse.umd.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bazzite/vue-burger-menu.git"
+    "url": "git://github.com/bazzite/vue-warehouse.git"
   },
   "bugs": {
-    "url": "http://github.com/bazzite/vue-burger-menu/issues"
+    "url": "http://github.com/bazzite/vue-warehouse/issues"
   },
   "homepage": "https://www.bazzite.com/docs/vue-warehouse",
   "files": [
