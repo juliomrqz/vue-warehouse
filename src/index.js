@@ -7,13 +7,16 @@ const VueWarehouse = {
       store: null,
       engine: null,
       plugins: null,
-      storages: null
+      storages: null,
+      moduleName: 'warehouse'
     }
   ) {
+    const moduleName = (options || {}).moduleName || 'warehouse'
+
     const warehouse = Warehouse(options)
 
-    Vue.prototype.$warehouse = warehouse
-    Vue.warehouse = warehouse
+    Vue.prototype['$' + moduleName] = warehouse
+    Vue[moduleName] = warehouse
   }
 }
 
