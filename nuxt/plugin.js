@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import Warehouse from 'vue-warehouse/src/warehouse'
+import Warehouse from 'vue-warehouse/dist/warehouse.esm'
 
 <% if (typeof(options.store) !== 'undefined') { %>
 // Define store in options
