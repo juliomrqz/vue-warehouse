@@ -7,8 +7,7 @@ import commonjs from 'rollup-plugin-commonjs'
 import uglify from 'rollup-plugin-uglify'
 import replace from 'rollup-plugin-replace'
 
-export default {
-  input: 'src/index.js',
+const base = {
   plugins: [
     resolve({
       browser: true,
@@ -29,12 +28,18 @@ export default {
     uglify(),
     filesize()
   ],
-  output: [
-    {
-      name: 'VueWarehouse',
-      exports: 'named',
-      file: `dist/vue-warehouse.js`,
-      format: 'umd'
-    }
-  ]
 }
+
+export default [
+  Object.assign({}, base, {
+    input: 'src/index.js',
+    output: [
+      {
+        name: 'VueWarehouse',
+        exports: 'named',
+        file: 'dist/vue-warehouse.js',
+        format: 'umd'
+      }
+    ]
+  })
+]

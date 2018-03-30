@@ -1,7 +1,7 @@
-require('./check-versions')();
+require('./check-versions')()
 
-import buble from 'rollup-plugin-buble';
-import filesize from 'rollup-plugin-filesize';
+import buble from 'rollup-plugin-buble'
+import filesize from 'rollup-plugin-filesize'
 
 const base = {
   plugins: [
@@ -27,6 +27,15 @@ export default [
     output: [
       {
         file: 'dist/warehouse.esm.js',
+        format: 'es'
+      }
+    ]
+  }),
+  Object.assign({}, base, {
+    input: 'src/sync.js',
+    output: [
+      {
+        file: 'dist/sync.esm.js',
         format: 'es'
       }
     ]
