@@ -1,5 +1,15 @@
-import Vue from 'vue'
 import Warehouse from 'vue-warehouse/dist/warehouse.esm'
+<% if (typeof(options.vuex) !== 'undefined') { %>
+import WarehouseSync from 'vue-warehouse/dist/sync.esm'
+<% } %>
+
+<% if (typeof(options.moduleName) !== 'undefined') { %>
+// Define store in options
+const moduleName = '<%= options.moduleName %>'
+<% } else { %>
+// Define default store
+const moduleName = 'warehouse'
+<% } %>
 
 <% if (typeof(options.store) !== 'undefined') { %>
 // Define store in options
@@ -37,14 +47,27 @@ const storages = [
 
 
 export default (ctx, inject) => {
-  const warehouse = Warehouse({
+  const warehouseStore = Warehouse({
+    moduleName: moduleName,
   <% if (typeof(options.storages) !== 'undefined') { %>  engine: engine,<% } %>
     store: store,
   <% if (typeof(options.plugins) !== 'undefined') { %>  plugins: plugins,<% } %>
   <% if (typeof(options.storages) !== 'undefined') { %>  storages: storages<% } %>
   })
 
-  // Inject Warehouse to the context as $warehouse
-  ctx.$warehouse = warehouse
-  inject('warehouse', warehouse)
+  <% if (typeof(options.vuex) !== 'undefined') { %>
+    <% if (typeof(options.vuex) === 'object') { %>
+  const syncModuleName = options.vuex.moduleName
+    <% } else { %>
+  const syncModuleName = moduleName
+    <% } %>
+
+  WarehouseSync(ctx.store, warehouseStore, {
+    moduleName: syncModuleName
+  })
+  <% } %>
+
+  // Inject Warehouse to the context as $moduleName
+  ctx['$' + moduleName] = warehouseStore
+  inject(moduleName, warehouseStore)
 }
