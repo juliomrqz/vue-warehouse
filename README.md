@@ -96,7 +96,7 @@ this.$warehouse.defaults({ user: { name: 'John Doe' } })
 
 // Change current user with an expiration date of 2 hours starting from now
 const expiration = new Date().getTime() + (3600 * 2000)
-this.$warehouse.set('user', { name:'Jane Doe' }, expiration)
+this.$warehouse.set('user', { name:'Marie Doe' }, expiration)
 
 // Get current user value
 this.$warehouse.get('user')
@@ -118,17 +118,20 @@ this.$warehouse.each(function(value, key) {
 
 ### Vuex State
 
-The last change made to the **browser store** (localStorage, cookie, etc.)
+The last change made to the **browser store** (localStorage, cookie, etc.) are synced with the Vuex state:
 
 ```javascript
 // Store current user
 this.$warehouse.set('user', { name: 'John Doe' })
 
+// Update the user
+this.$warehouse.set('user', { name: 'Marie Doe' })
+
 // get state values
 store.state.warehouse.action    // action performed -> set
 store.state.warehouse.key       // key affected     -> user
-store.state.warehouse.value     // sent value       -> { name: 'John Doe' }
-store.state.warehouse.oldValue  // last value       -> undefined
+store.state.warehouse.value     // stored value     -> { name: 'Marie Doe' }
+store.state.warehouse.oldValue  // last value       -> { name: 'John Doe' }
 ```
 
 ## Documentation & Support
@@ -137,7 +140,7 @@ If you want extra details of how to configure and use this plugin, the full docu
 
 For questions and support, use the [Issues section][issues].
 
-You may also want to [follow the company suporting this project on Twitter][twitter].
+You may also want to [follow the company supporting this project on Twitter][twitter].
 
 ## Contributing
 
@@ -147,7 +150,7 @@ Please make sure to read the [Contributing Guide][contributing] before making a 
 
 Everyone participating in this project is expected to agree to abide by the [Code of Conduct][code-of-conduct].
 
-## Comercial Support
+## Commercial Support
 
 This project is sponsored by [Bazzite][bazzite-website]. If you require assistance on your project(s), please contact us at [https://www.bazzite.com/contact][contact-page].
 
