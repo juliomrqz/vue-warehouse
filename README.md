@@ -1,15 +1,15 @@
-[![Bazzite Project](https://img.shields.io/badge/Bazzite-project-blue.svg)](https://www.bazzite.com/docs/vue-warehouse)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6fd62c3807d84982bfbd6e3298707bef)](https://www.codacy.com/app/bazzite/vue-warehouse?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=bazzite/vue-warehouse&amp;utm_campaign=Badge_Grade)
-[![Travis](https://img.shields.io/travis/bazzite/vue-warehouse.svg)](https://travis-ci.org/bazzite/vue-warehouse)
-[![codecov](https://codecov.io/gh/bazzite/vue-warehouse/branch/develop/graph/badge.svg)](https://codecov.io/gh/bazzite/vue-warehouse)
-[![David](https://img.shields.io/david/bazzite/vue-warehouse.svg)](https://david-dm.org/bazzite/vue-warehouse)
-[![David](https://img.shields.io/david/dev/bazzite/vue-warehouse.svg)](https://david-dm.org/bazzite/vue-warehouse?type=dev)
+[![Bazzite Project](https://img.shields.io/badge/Bazzite-project-blue.svg?style=flat-square)](https://www.bazzite.com/docs/vue-warehouse)
+[![Codacy Badge](https://img.shields.io/codacy/grade/6fd62c3807d84982bfbd6e3298707bef.svg?style=flat-square)](https://www.codacy.com/app/bazzite/vue-warehouse?utm_source=github.com&utm_medium=referral&utm_content=bazzite/vue-warehouse&utm_campaign=Badge_Grade)
+[![Travis](https://img.shields.io/travis/bazzite/vue-warehouse.svg?style=flat-square)](https://travis-ci.org/bazzite/vue-warehouse)
+[![codecov](https://img.shields.io/codecov/c/github/bazzite/vue-warehouse/develop.svg?style=flat-square)](https://codecov.io/gh/bazzite/vue-warehouse)
+[![David](https://img.shields.io/david/bazzite/vue-warehouse.svg?style=flat-square)](https://david-dm.org/bazzite/vue-warehouse)
+[![David](https://img.shields.io/david/dev/bazzite/vue-warehouse.svg?style=flat-square)](https://david-dm.org/bazzite/vue-warehouse?type=dev)
 [![version](https://img.shields.io/npm/v/vue-warehouse.svg?style=flat-square)](https://www.npmjs.com/package/vue-warehouse)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/bazzite/vue-warehouse/develop/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/bazzite/vue-warehouse/develop/LICENSE)
 
 # [BETA] Vue.js Warehouse
 
-A Cross-browser storage for **Vue.js** and **Nuxt.js**, with plugins support and easy extensibility based on **Store.js**. 
+A Cross-browser storage for **Vue.js** and **Nuxt.js**, with plugins support and easy extensibility based on **Store.js**.
 
 This plugin will **pick the best available browser storage**, and automatically **falls back to the first available** storage that works.
 
@@ -17,24 +17,33 @@ This plugin will **pick the best available browser storage**, and automatically 
 
 * Backed by the great library [Store.js][storejs]
 * Support for multiple Storages (localStorage, cookies, etc.)
-* Basic key/value storage functionality (`get/set/remove/each`) 
-* Easy integration with Vue.js 
+* Basic key/value storage functionality (`get/set/remove/each`)
+* Easy integration with Vue.js
 * Support for Nuxt.js
 * Get notified when stored values change with Vuex
 
+## Why use this plugin
+
+Some reasons why you could consider to use this plugin:
+
+* Use a **fallback Browser storage** method in case the user's browser has limitations. Safari in Private mode can deny writing data in localStorage.
+* Easy extensibility with **Plugins**. Support for expiring stored values at a given time, declare default values, etc.
+* A **consistent API** across browsers for a key/value storage functionality.
+* Easy definition of **alternative Storage methods**. For example: you could reuse a Vue Component, that relies on a storage method, in the user's browser (using localStorage) or a mobile app (using NativeScript **application-settings*** module) just by changing the storage method without modifying the internal logic of the component.
+* **Synchronization** of stored values changes with **Vuex**.
+
 ## Installation
 
-This module is distributed via [npm][npm] which is bundled with [node][node] and
-should be installed as one of your project's `dependencies`:
+This module is distributed via [npm][npm] which is bundled with [node][node] and should be installed as one of your project's `dependencies`:
 
 ```bash
-npm install --save vue-warehouse
+npm install --save store vue-warehouse
 ```
 
 or
 
 ```bash
-yarn add vue-warehouse
+yarn add store vue-warehouse
 ```
 
 ## Example of use
@@ -142,6 +151,10 @@ For questions and support, use the [Issues section][issues].
 
 You may also want to [follow the company supporting this project on Twitter][twitter].
 
+### Commercial Support
+
+This project is sponsored by [Bazzite][bazzite-website]. If you require assistance on your project(s), please contact us at [https://www.bazzite.com/contact][contact-page].
+
 ## Contributing
 
 Please make sure to read the [Contributing Guide][contributing] before making a pull request.
@@ -150,15 +163,17 @@ Please make sure to read the [Contributing Guide][contributing] before making a 
 
 Everyone participating in this project is expected to agree to abide by the [Code of Conduct][code-of-conduct].
 
-## Commercial Support
+## License
 
-This project is sponsored by [Bazzite][bazzite-website]. If you require assistance on your project(s), please contact us at [https://www.bazzite.com/contact][contact-page].
+Code released under the  [MIT License][license-page].
+
 
 [storejs]: https://github.com/marcuswestin/store.js/
-[documentation]: https://www.bazzite.com/docs/vue-warehouse
-[contributing]: https://www.bazzite.com/docs/vue-warehouse/contributing
-[code-of-conduct]: https://www.bazzite.com/open-source/code-of-conduct/
+[documentation]: https://www.bazzite.com/docs/vue-warehouse?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
+[contributing]: https://www.bazzite.com/docs/vue-warehouse/contributing?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
+[code-of-conduct]: https://www.bazzite.com/open-source/code-of-conduct?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
 [issues]: https://github.com/bazzite/vue-warehouse/issues
 [twitter]: https://twitter.com/BazziteTech
-[bazzite-website]: https://www.bazzite.com
-[contact-page]: https://www.bazzite.com/contact
+[bazzite-website]: https://www.bazzite.com?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
+[contact-page]: https://www.bazzite.com/contact?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
+[license-page]: https://www.bazzite.com/docs/vue-warehouse/license?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
