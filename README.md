@@ -6,6 +6,7 @@
 [![David](https://img.shields.io/david/dev/bazzite/vue-warehouse.svg)](https://david-dm.org/bazzite/vue-warehouse?type=dev)
 [![version](https://img.shields.io/npm/v/vue-warehouse.svg?style=flat-square)](https://www.npmjs.com/package/vue-warehouse)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/bazzite/vue-warehouse/develop/LICENSE)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbazzite%2Fvue-warehouse.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbazzite%2Fvue-warehouse?ref=badge_shield)
 
 # [BETA] Vue.js Warehouse
 
@@ -162,3 +163,6 @@ This project is sponsored by [Bazzite][bazzite-website]. If you require assistan
 [twitter]: https://twitter.com/BazziteTech
 [bazzite-website]: https://www.bazzite.com
 [contact-page]: https://www.bazzite.com/contact
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbazzite%2Fvue-warehouse.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbazzite%2Fvue-warehouse?ref=badge_large)
