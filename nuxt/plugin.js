@@ -1,10 +1,10 @@
-import WarehouseStore from 'vue-warehouse/dist/store'
+import WarehouseStore from 'vue-warehouse/store'
 <% if (typeof(options.vuex) !== 'undefined') { %>
 import WarehouseSync from 'vue-warehouse/sync'
 <% } %>
 
 <% if (typeof(options.moduleName) !== 'undefined') { %>
-// Define store in options
+// Define module name
 const moduleName = '<%= options.moduleName %>'
 <% } else { %>
 // Define default store

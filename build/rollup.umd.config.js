@@ -7,37 +7,72 @@ import commonjs from 'rollup-plugin-commonjs'
 import uglify from 'rollup-plugin-uglify'
 import replace from 'rollup-plugin-replace'
 
-const base = {
-  plugins: [
-    resolve({
-      browser: true,
-      preferBuiltins: false
-    }),
-    buble({
-      transforms: {
-        dangerousForOf: true
-      },
-      objectAssign: 'Object.assign'
-    }),
-    commonjs(),
-    replace({
-      'process.env': JSON.stringify({
-        NODE_ENV: 'production'
-      })
-    }),
-    uglify(),
-    filesize()
-  ],
+const base = (activateUglify = false) => {
+  return {
+    plugins: [
+      resolve({
+        browser: true,
+        preferBuiltins: false
+      }),
+      buble({
+        transforms: {
+          dangerousForOf: true
+        },
+        objectAssign: 'Object.assign'
+      }),
+      commonjs(),
+      replace({
+        'process.env': JSON.stringify({
+          NODE_ENV: 'production'
+        })
+      }),
+      activateUglify ? uglify() : {},
+      filesize()
+    ]
+  }
 }
 
 export default [
-  Object.assign({}, base, {
+  Object.assign({}, base(true), {
     input: 'src/index.js',
     output: [
       {
         name: 'VueWarehouse',
         exports: 'named',
-        file: 'dist/vue-warehouse.umd.min.js',
+        file: 'dist/vue-warehouse.min.js',
+        format: 'umd'
+      }
+    ]
+  }),
+  Object.assign({}, base(), {
+    input: 'src/index.js',
+    output: [
+      {
+        name: 'VueWarehouse',
+        exports: 'named',
+        file: 'dist/vue-warehouse.js',
+        format: 'umd'
+      }
+    ]
+  }),
+  Object.assign({}, base(true), {
+    input: 'src/sync.js',
+    output: [
+      {
+        name: 'VueWarehouseSync',
+        exports: 'named',
+        file: 'dist/vue-warehouse-sync.min.js',
+        format: 'umd'
+      }
+    ]
+  }),
+  Object.assign({}, base(), {
+    input: 'src/sync.js',
+    output: [
+      {
+        name: 'VueWarehouseSync',
+        exports: 'named',
+        file: 'dist/vue-warehouse-sync.js',
         format: 'umd'
       }
     ]

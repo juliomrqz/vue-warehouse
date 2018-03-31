@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import WarehouseSync from '@/../sync'
+import WarehouseSync from '@/sync'
 import WarehouseStore from '@/store'
 
 Vue.use(Vuex)

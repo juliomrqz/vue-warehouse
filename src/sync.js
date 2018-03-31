@@ -1,7 +1,7 @@
 // Based on https://github.com/vuejs/vuex-router-sync/blob/master/src/index.js
 const undefinedChanges = {
   action: undefined,
-  key: undefined,
+  key: '',
   value: undefined,
   oldValue: undefined
 }
@@ -95,7 +95,7 @@ export default (store, warehouseStore, options) => {
   // sync warehouse on store change
   const warehouseUnwatch = store.watch(
     state => state[moduleName],
-    warehouse => {
+    (warehouse) => {
       if (warehouse === currentChanges) {
         return
       }

@@ -1,16 +1,7 @@
 import VueWarehouseStore from './store'
 
 const VueWarehouse = {
-  install (
-    Vue,
-    options = {
-      store: null,
-      engine: null,
-      plugins: null,
-      storages: null,
-      moduleName: 'warehouse'
-    }
-  ) {
+  install (Vue, options = {}) {
     const moduleName = (options || {}).moduleName || 'warehouse'
 
     const warehouse = VueWarehouseStore(options)

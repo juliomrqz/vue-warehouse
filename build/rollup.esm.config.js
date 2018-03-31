@@ -14,10 +14,10 @@ const base = {
 
 export default [
   Object.assign({}, base, {
-    input: 'src/store.js',
+    input: 'src/index.js',
     output: [
       {
-        file: 'dist/store.js',
+        file: 'dist/vue-warehouse.esm.js',
         format: 'es'
       }
     ]
@@ -26,8 +26,26 @@ export default [
     input: 'src/index.js',
     output: [
       {
-        file: 'dist/vue-warehouse.js',
-        format: 'es'
+        file: 'dist/vue-warehouse.common.js',
+        format: 'cjs'
+      }
+    ]
+  }),
+  Object.assign({}, base, {
+    input: 'src/sync.js',
+    output: [
+      {
+        file: 'sync.js',
+        format: 'cjs'
+      }
+    ]
+  }),
+  Object.assign({}, base, {
+    input: 'src/store.js',
+    output: [
+      {
+        file: 'store.js',
+        format: 'cjs'
       }
     ]
   })

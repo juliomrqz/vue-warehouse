@@ -1,13 +1,13 @@
-export default (options) => {
+export default options => {
   let store = options.store
   const engine = options.engine
 
   if (options.storages && !engine) {
-    throw new Error("You must define an 'engine' when storages are defined")
+    throw new Error('You must define an \'engine\' when storages are defined')
   }
 
   if (!store && !engine) {
-    throw new Error("You must define a 'store' or an 'engine'")
+    throw new Error('You must define a \'store\' or an \'engine\'')
   }
 
   if (!options.storages || options.storages.length === 0) {

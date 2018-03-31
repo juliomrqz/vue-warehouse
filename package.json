@@ -1,9 +1,12 @@
 {
   "name": "vue-warehouse",
   "version": "0.1.0b",
-  "description": "Cross-browser storage for Vue.js",
-  "main": "dist/vue-warehouse.umd.min.js",
-  "module": "dist/vue-warehouse.js",
+  "description": "A Cross-browser storage for Vue.js and Nuxt.js, with plugins support and easy extensibility based on Store.js",
+  "main": "dist/vue-warehouse.common.js",
+  "module": "dist/vue-warehouse.esm.js",
+  "unpkg": "dist/vue-warehouse.js",
+  "jsdelivr": "dist/vue-warehouse.js",
+  "typings": "types/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git://github.com/bazzite/vue-warehouse.git"
@@ -13,14 +16,18 @@
   },
   "homepage": "https://www.bazzite.com/docs/vue-warehouse",
   "files": [
-    "src",
     "dist",
-    "nuxt"
+    "nuxt",
+    "sync",
+    "types/*.d.ts",
+    "store.js",
+    "sync.js"
   ],
   "scripts": {
     "start": "npm run dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
-    "test": "npm run unit",
+    "test": "npm run lint && npm run unit && npm run test:types",
+    "test:types": "tsc -p types/test",
     "lint": "eslint --ext .js src test/unit",
     "report-coverage": "cat ./test/unit/coverage/lcov.info | ./node_modules/.bin/codecov",
     "build": "yarn build:esm && yarn build:umd",
@@ -45,6 +52,9 @@
   "license": "MIT",
   "peerDependencies": {
     "store": "^2.0.12",
+    "vue": "^2.5.0"
+  },
+  "optionalDependencies": {
     "vuex": "^3.0.0"
   },
   "devDependencies": {
@@ -69,7 +79,7 @@
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^3.0.1",
-    "eslint-plugin-vue": "^4.4.0",
+    "eslint-plugin-vue-libs": "^2.1.0",
     "jest": "^22.0.4",
     "rollup": "^0.57.1",
     "rollup-plugin-buble": "^0.19.2",
@@ -81,6 +91,7 @@
     "semver": "^5.3.0",
     "shelljs": "^0.8.1",
     "store": "^2.0.12",
+    "typescript": "^2.7.2",
     "vue": "^2.5.0",
     "vuex": "^3.0.0"
   },
