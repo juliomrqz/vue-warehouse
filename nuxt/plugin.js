@@ -15,8 +15,8 @@ const moduleName = 'warehouse'
 // Define store in options
 import store from '<%= options.store %>'
 <% } else { %>
-// Define default store
-import store from 'store'
+// Define the default store, supporting only modern browsers
+import store from 'store/dist/store.modern'
 <% } %>
 
 <% if (typeof(options.storages) !== 'undefined') { %>
