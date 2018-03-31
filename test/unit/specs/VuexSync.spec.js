@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import WarehouseSync from '@/sync'
-import Warehouse from '@/warehouse'
+import WarehouseSync from '@/../sync'
+import WarehouseStore from '@/store'
 
 Vue.use(Vuex)
 
@@ -12,7 +12,7 @@ const run = (originalModuleName, done) => {
     state: { msg: 'foo' }
   })
 
-  const warehouseStore = Warehouse({
+  const warehouseStore = WarehouseStore({
     store: require('store')
   })
 
@@ -71,7 +71,7 @@ describe('Warehouse Vuex Unsync', () => {
     /* eslint-disable-next-line no-undef */
     spyOn(store, 'watch').and.callThrough()
 
-    const warehouseStore = Warehouse({
+    const warehouseStore = WarehouseStore({
       store: require('store')
     })
 

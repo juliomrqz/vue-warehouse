@@ -1,6 +1,6 @@
-import Warehouse from 'vue-warehouse/dist/warehouse.esm'
+import WarehouseStore from 'vue-warehouse/dist/store'
 <% if (typeof(options.vuex) !== 'undefined') { %>
-import WarehouseSync from 'vue-warehouse/dist/sync.esm'
+import WarehouseSync from 'vue-warehouse/sync'
 <% } %>
 
 <% if (typeof(options.moduleName) !== 'undefined') { %>
@@ -47,7 +47,7 @@ const storages = [
 
 
 export default (ctx, inject) => {
-  const warehouseStore = Warehouse({
+  const warehouseStore = WarehouseStore({
     moduleName: moduleName,
   <% if (typeof(options.storages) !== 'undefined') { %>  engine: engine,<% } %>
     store: store,
@@ -67,7 +67,7 @@ export default (ctx, inject) => {
   })
   <% } %>
 
-  // Inject Warehouse to the context as $moduleName
+  // Inject WarehouseStore to the context as $moduleName
   ctx['$' + moduleName] = warehouseStore
   inject(moduleName, warehouseStore)
 }

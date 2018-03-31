@@ -1,4 +1,4 @@
-import Warehouse from './warehouse'
+import VueWarehouseStore from './store'
 
 const VueWarehouse = {
   install (
@@ -13,7 +13,7 @@ const VueWarehouse = {
   ) {
     const moduleName = (options || {}).moduleName || 'warehouse'
 
-    const warehouse = Warehouse(options)
+    const warehouse = VueWarehouseStore(options)
 
     Vue.prototype['$' + moduleName] = warehouse
     Vue[moduleName] = warehouse

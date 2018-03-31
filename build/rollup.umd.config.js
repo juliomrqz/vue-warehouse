@@ -37,7 +37,7 @@ export default [
       {
         name: 'VueWarehouse',
         exports: 'named',
-        file: 'dist/vue-warehouse.js',
+        file: 'dist/vue-warehouse.umd.min.js',
         format: 'umd'
       }
     ]

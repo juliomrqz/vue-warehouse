@@ -2,8 +2,8 @@
   "name": "vue-warehouse",
   "version": "0.1.0b",
   "description": "Cross-browser storage for Vue.js",
-  "main": "dist/vue-warehouse.js",
-  "module": "dist/vue-warehouse.esm.js",
+  "main": "dist/vue-warehouse.umd.min.js",
+  "module": "dist/vue-warehouse.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/bazzite/vue-warehouse.git"
