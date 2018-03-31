@@ -39,9 +39,9 @@ yarn add vue-warehouse
 
 ## Example of use
 
-Suppose you want to use **localStorage** by default and **cookies** as an alternative in case your user's browser only doesn't allow any interaction with **localStorage**. Besides, you want to define **defaults values** and an **expiration date** for all the data that is going to be saved.
+Suppose you want to use **localStorage** by default and **cookies** as an alternative in case your user's browser doesn't allow any interaction with **localStorage** (Safari Private mode). Besides, you want to define **defaults values** and an **expiration date** for all the data that is going to be saved.
 
-### Configuration
+### Configuration for Vue.js
 
 ```javascript
 import Vue from 'vue'
@@ -64,6 +64,28 @@ Vue.use(VueWarehouse, {
     require('store/storages/cookieStorage')  // cookies support
   ]
 })
+```
+
+### Configuration for Nuxt.js
+
+```javascript
+{
+  modules: [
+    ['vue-warehouse/nuxt', 
+      { 
+        vuex: true,
+        plugins: [
+          'store/plugins/expire',
+          'store/plugins/defaults'
+        ],
+        storages: [
+          'store/storages/localStorage',
+          'store/storages/cookieStorage'
+        ]
+      }
+    ],
+  ]
+}
 ```
 
 ### API Usage
@@ -134,6 +156,6 @@ This project is sponsored by [Bazzite][bazzite-website]. If you require assistan
 [contributing]: https://www.bazzite.com/docs/vue-warehouse/contributing
 [code-of-conduct]: https://www.bazzite.com/open-source/code-of-conduct/
 [issues]: https://github.com/bazzite/vue-warehouse/issues
-[twitter]: https://twitter.com/bazzitetech
+[twitter]: https://twitter.com/BazziteTech
 [bazzite-website]: https://www.bazzite.com
 [contact-page]: https://www.bazzite.com/contact
