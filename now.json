@@ -1,0 +1,5 @@
+{
+  "name": "vue-warehouse-examples",
+  "alias": "vue-warehouse-examples",
+  "files": ["src", "dist", "examples", "build"]
+}

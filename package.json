@@ -24,16 +24,18 @@
     "sync.js"
   ],
   "scripts": {
+    "dev": "node examples/server.js",
     "start": "npm run dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "test": "npm run lint && npm run unit && npm run test:types",
     "test:types": "tsc -p types/test",
-    "lint": "eslint --ext .js src test/unit",
+    "lint": "eslint --ext .js src test/unit examples",
     "report-coverage": "cat ./test/unit/coverage/lcov.info | ./node_modules/.bin/codecov",
-    "build": "yarn build:esm && yarn build:umd",
+    "build": "npm run build:esm && npm run build:umd",
     "build:esm": "rollup -c ./build/rollup.esm.config.js",
     "build:umd": "rollup -c ./build/rollup.umd.config.js",
-    "deploy": "yarn lint && yarn test && yarn build && npm publish"
+    "deploy": "npm run test && npm run build && npm publish",
+    "deploy-examples": "now --team bazzite --public && now --team bazzite  alias vue-warehouse-examples"
   },
   "keywords": [
     "bazzite",
@@ -71,6 +73,7 @@
     "codecov": "^3.0.0",
     "codecov.io": "^0.1.6",
     "cross-env": "^5.1.4",
+    "es6-promise": "^4.2.4",
     "eslint": "^4.15.0",
     "eslint-config-standard": "^11.0.0",
     "eslint-friendly-formatter": "^4.0.0",
@@ -80,6 +83,8 @@
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^3.0.1",
     "eslint-plugin-vue-libs": "^2.1.0",
+    "express": "^4.16.3",
+    "express-urlrewrite": "^1.2.0",
     "jest": "^22.0.4",
     "rollup": "^0.57.1",
     "rollup-plugin-buble": "^0.19.2",
@@ -93,7 +98,11 @@
     "store": "^2.0.12",
     "typescript": "^2.7.2",
     "vue": "^2.5.0",
-    "vuex": "^3.0.0"
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "vuex": "^3.0.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-middleware": "^1.12.2"
   },
   "engines": {
     "node": ">= 6.0.0",
