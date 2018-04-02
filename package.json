@@ -1,6 +1,6 @@
 {
   "name": "vue-warehouse",
-  "version": "1.0.0b",
+  "version": "1.0.0",
   "description": "A Cross-browser storage for Vue.js and Nuxt.js, with plugins support and easy extensibility based on Store.js",
   "main": "dist/vue-warehouse.common.js",
   "module": "dist/vue-warehouse.esm.js",
