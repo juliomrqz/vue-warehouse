@@ -33,6 +33,11 @@ new Vue({
       this.$warehouse.remove(this.saveFormInputDataKey)
 
       this.showAlertMessage = true
+    },
+    clearAll: function () {
+      this.$warehouse.clearAll()
+
+      this.showAlertMessage = true
     }
   },
   computed: {
@@ -77,6 +82,9 @@ new Vue({
         </button>
         <button @click.prevent="remove" type="submit" class="btn btn-danger">
           Remove
+        </button>
+        <button @click.prevent="clearAll" type="submit" class="btn btn-warning">
+          Clear All
         </button>
       </form>
 

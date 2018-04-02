@@ -17,27 +17,30 @@ Vue.use(VueWarehouse, {
 
 new Vue({
   data: {
-    saveFormInputDataKey: 'name',
-    saveFormInputDataExpiration: 5,
-    saveFormInputDataValue: 'Jhon Doe',
-    retrieveFormInputDataKey: 'name',
-    retrieveFormInputDataValue: '',
+    saveDataKey: 'name',
+    saveDataExpiration: 10,
+    saveDataValue: 'Jhon Doe',
+    retrieveDataKey: 'name',
+    retrieveDataValue: '',
+    retrieveDataRemainingSeconds: 0,
     showAlertMessage: false
   },
   methods: {
     save: function () {
       this.$warehouse.set(
-        this.saveFormInputDataKey,
-        this.saveFormInputDataValue,
-        new Date().getTime() + (this.saveFormInputDataExpiration * 1000))
+        this.saveDataKey,
+        this.saveDataValue,
+        new Date().getTime() + (this.saveDataExpiration * 1000))
 
       this.showAlertMessage = true
     },
     retrieve: function () {
-      this.retrieveFormInputDataValue = this.$warehouse.get(this.retrieveFormInputDataKey)
+      this.retrieveDataValue = this.$warehouse.get(this.retrieveDataKey)
+      this.retrieveDataRemainingSeconds =
+        (this.$warehouse.getExpiration(this.retrieveDataKey) - new Date().getTime()) / 1000
     },
     remove: function () {
-      this.$warehouse.remove(this.saveFormInputDataKey)
+      this.$warehouse.remove(this.saveDataKey)
 
       this.showAlertMessage = true
     }
@@ -51,20 +54,20 @@ new Vue({
 
         <div class="form-row">
           <div class="form-group col-md-6">
-            <label for="saveFormInputDataKey">Data key</label>
+            <label for="saveDataKey">Data key</label>
             <input 
-              v-model="saveFormInputDataKey"
-              id="saveFormInputDataKey"
+              v-model="saveDataKey"
+              id="saveDataKey"
               type="text" 
               class="form-control" 
               placeholder="Enter your data key" 
               value="name">
           </div>
           <div class="form-group col-md-6">
-            <label for="saveFormInputDataExpiration">Data expiration (seconds)</label>
+            <label for="saveDataExpiration">Data expiration (seconds)</label>
             <input 
-              v-model="saveFormInputDataExpiration"
-              id="saveFormInputDataExpiration"
+              v-model="saveDataExpiration"
+              id="saveDataExpiration"
               type="number" 
               class="form-control" 
               placeholder="Enter your data expiration" 
@@ -73,10 +76,10 @@ new Vue({
         </div>
 
         <div class="form-group">
-          <label for="saveFormInputDataValue">Data value</label>
+          <label for="saveDataValue">Data value</label>
           <input 
-            v-model="saveFormInputDataValue"
-            id="saveFormInputDataValue"
+            v-model="saveDataValue"
+            id="saveDataValue"
             type="text" 
             class="form-control" 
             placeholder="Enter your data value">
@@ -93,21 +96,34 @@ new Vue({
       <hr>
 
       <form id="retrieveForm">
-        <div class="form-group">
-          <label for="retrieveFormInputDataKey">Data key</label>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+          <label for="retrieveDataKey">Data key</label>
           <input
-            v-model="retrieveFormInputDataKey"
-            id="retrieveFormInputDataKey"
+            v-model="retrieveDataKey"
+            id="retrieveDataKey"
             type="text"
             class="form-control"
             placeholder="Enter the data key" value="name">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="retrieveDataRemainingSeconds">Remaining Seconds</label>
+            <input
+              v-model="retrieveDataRemainingSeconds"
+              id="retrieveDataRemainingSeconds"
+              type="number"
+              class="form-control"
+              disabled="disabled"
+              value="name">
+          </div>
         </div>
+
         <div class="form-group">
-          <label for="retrieveFormInputDataValue">Data value</label>
+          <label for="retrieveDataValue">Data value</label>
           <textarea 
-            v-model="retrieveFormInputDataValue"
+            v-model="retrieveDataValue"
             class="form-control" 
-            id="retrieveFormInputDataValue"></textarea>
+            id="retrieveDataValue"></textarea>
         </div>
         <button @click.prevent="retrieve" type="submit" class="btn btn-primary">Retrieve</button>
       </form>
