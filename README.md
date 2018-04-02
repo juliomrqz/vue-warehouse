@@ -7,11 +7,13 @@
 [![version](https://img.shields.io/npm/v/vue-warehouse.svg?style=flat-square)](https://www.npmjs.com/package/vue-warehouse)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/bazzite/vue-warehouse/develop/LICENSE)
 
-# [BETA] Vue.js Warehouse
+# Vue.js Warehouse
 
 A Cross-browser storage for **Vue.js** and **Nuxt.js**, with plugins support and easy extensibility based on **Store.js**.
 
 This plugin will **pick the best available browser storage**, and automatically **falls back to the first available** storage that works.
+
+*Read this in other languages: [English](README.md), [Español](README.es.md)*
 
 ## Features
 
@@ -20,7 +22,7 @@ This plugin will **pick the best available browser storage**, and automatically 
 * Basic key/value storage functionality (`get/set/remove/each`)
 * Easy integration with Vue.js
 * Support for Nuxt.js
-* Get notified when stored values change with Vuex
+* Get notified with Vuex when the stored values change
 
 ## Why use this plugin
 
@@ -29,7 +31,7 @@ Some reasons why you could consider to use this plugin:
 * Use a **fallback Browser storage** method in case the user's browser has limitations. Safari in Private mode can deny writing data in localStorage.
 * Easy extensibility with **Plugins**. Support for expiring stored values at a given time, declare default values, etc.
 * A **consistent API** across browsers for a key/value storage functionality.
-* Easy definition of **alternative Storage methods**. For example: you could reuse a Vue Component, that relies on a storage method, in the user's browser (using localStorage) or a mobile app (using NativeScript **application-settings*** module) just by changing the storage method without modifying the internal logic of the component.
+* Easy definition of **alternative Storage methods**. For example: you could reuse a Vue Component, that relies on a storage method, in the user's browser (using **localStorage**) or a mobile app (using **NativeScript application-settings** module) just by changing the storage method without modifying the internal logic of the component.
 * **Synchronization** of stored values changes with **Vuex**.
 
 ## Installation
