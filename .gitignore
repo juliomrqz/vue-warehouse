@@ -452,8 +452,6 @@ __pycache__/
 # End of https://www.gitignore.io/api/osx,node,linux,windows,sublimetext,visualstudio
 
 /dist/
-/sync.js
-/store.js
 /test/unit/coverage/
 
 # Editor directories and files
