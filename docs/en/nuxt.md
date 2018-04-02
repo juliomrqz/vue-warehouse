@@ -2,8 +2,8 @@
 title: Nuxt.js Support
 description: Vue.js Warehouse support for Nuxt.js
 order: 3
-dateCreated: 2018-03-29T10:57:00-04:30
-dateModified: 2018-03-30T18:57:00-04:30
+dateCreated: 2018-03-29T10:57:00-04:00
+dateModified: 2018-03-30T18:57:00-04:00
 datePublished: 2018-03-30
 ---
 
@@ -16,13 +16,13 @@ Configuring the plugin for Nuxt.js is extremely simple and easy.
 The installation process is the same you follow for Vue.js:
 
 ```bash
-npm install --save vue-warehouse
+npm install --save store vue-warehouse
 ```
 
 or
 
 ```bash
-yarn add vue-warehouse
+yarn add store vue-warehouse
 ```
 
 ## Configuration
@@ -39,7 +39,7 @@ Add **vue-warehouse/nuxt** to modules section of nuxt.config.js
 }
 ```
 
-If no option is specified, the `require('store')` will be used as a default store. No plugin or engine will be defined.
+If no option is specified, `require('store/dist/store.modern')` will be used as a default store, supporting only modern browsers. No plugin or custom engine will be defined.
 
 ## Plugins
 
@@ -122,10 +122,10 @@ Inside of a Vue instance or in the Nuxt.js context, you have access to the vue-w
 **Vue Instance:**
 
 ```javascript
-// Store current user
+// Store the current user
 this.$warehouse.set('user', { name:'Marcus' })
 
-// Get current user
+// Get the current user
 this.$warehouse.get('user')
 ```
 
@@ -146,7 +146,7 @@ export default {
 
 ## Vuex Support
 
-The stored browser values (localStorage, cookie, etc.) changes can be synced with Vuex state. You can activate this feature this way:
+The changes of the stored values in the user's browser (localStorage, cookie, etc.) can be synced with Vuex state. You can activate this feature this way:
 
 ```javascript
 {
