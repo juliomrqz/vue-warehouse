@@ -17,5 +17,3 @@ script:
   - yarn build
 after_success:
   - yarn report-coverage
-branches:
-  only: develop
