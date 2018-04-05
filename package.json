@@ -101,8 +101,8 @@
     "vue-loader": "^14.2.2",
     "vue-template-compiler": "^2.5.16",
     "vuex": "^3.0.0",
-    "webpack": "^3.11.0",
-    "webpack-dev-middleware": "^2.0.6"
+    "webpack": "^4.5.0",
+    "webpack-dev-middleware": "^3.1.1"
   },
   "engines": {
     "node": ">= 6.0.0",
