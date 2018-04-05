@@ -2,7 +2,7 @@
 [![Codacy Badge](https://img.shields.io/codacy/grade/6fd62c3807d84982bfbd6e3298707bef.svg?style=flat-square)](https://www.codacy.com/app/bazzite/vue-warehouse?utm_source=github.com&utm_medium=referral&utm_content=bazzite/vue-warehouse&utm_campaign=Badge_Grade)
 [![Travis](https://img.shields.io/travis/bazzite/vue-warehouse.svg?style=flat-square)](https://travis-ci.org/bazzite/vue-warehouse)
 [![codecov](https://img.shields.io/codecov/c/github/bazzite/vue-warehouse/develop.svg?style=flat-square)](https://codecov.io/gh/bazzite/vue-warehouse)
-[![David](https://img.shields.io/david/bazzite/vue-warehouse.svg?style=flat-square)](https://david-dm.org/bazzite/vue-warehouse)
+[![David](https://img.shields.io/david/peer/bazzite/vue-warehouse.svg?style=flat-square)](https://david-dm.org/bazzite/vue-warehouse?type=peer)
 [![David](https://img.shields.io/david/dev/bazzite/vue-warehouse.svg?style=flat-square)](https://david-dm.org/bazzite/vue-warehouse?type=dev)
 [![Greenkeeper badge](https://badges.greenkeeper.io/bazzite/vue-warehouse.svg?style=flat-square)](https://greenkeeper.io/)
 [![version](https://img.shields.io/npm/v/vue-warehouse.svg?style=flat-square)](https://www.npmjs.com/package/vue-warehouse)
@@ -83,8 +83,8 @@ Vue.use(VueWarehouse, {
 ```javascript
 {
   modules: [
-    ['vue-warehouse/nuxt', 
-      { 
+    ['vue-warehouse/nuxt',
+      {
         vuex: true,
         plugins: [
           'store/plugins/expire',
