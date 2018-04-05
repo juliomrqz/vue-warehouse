@@ -4,12 +4,11 @@
 [![codecov](https://img.shields.io/codecov/c/github/bazzite/vue-warehouse/develop.svg?style=flat-square)](https://codecov.io/gh/bazzite/vue-warehouse)
 [![David](https://img.shields.io/david/bazzite/vue-warehouse.svg?style=flat-square)](https://david-dm.org/bazzite/vue-warehouse)
 [![David](https://img.shields.io/david/dev/bazzite/vue-warehouse.svg?style=flat-square)](https://david-dm.org/bazzite/vue-warehouse?type=dev)
+[![Greenkeeper badge](https://badges.greenkeeper.io/bazzite/vue-warehouse.svg?style=flat-square)](https://greenkeeper.io/)
 [![version](https://img.shields.io/npm/v/vue-warehouse.svg?style=flat-square)](https://www.npmjs.com/package/vue-warehouse)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/bazzite/vue-warehouse/develop/LICENSE)
 
 # Vue.js Warehouse
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/bazzite/vue-warehouse.svg)](https://greenkeeper.io/)
 
 A Cross-browser storage for **Vue.js** and **Nuxt.js**, with plugins support and easy extensibility based on **Store.js**.
 
