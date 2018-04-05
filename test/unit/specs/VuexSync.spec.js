@@ -89,7 +89,11 @@ describe('Warehouse Vuex Unsync', () => {
     expect(store._watcherVM._watchers).toBeDefined()
     expect(store._watcherVM._watchers.length).toBe(1)
     expect(store._watcherVM._watchers.length).toBe(1)
+
+    expect(warehouseStore._setForceCommit()).toBeUndefined()
     expect(warehouseStore._getForceCommit()).toBeTruthy()
+    expect(warehouseStore._unsetForceCommit()).toBeUndefined()
+    expect(warehouseStore._getForceCommit()).toBeFalsy()
 
     // Now unsync warehouse vuex sync
     unsync()
