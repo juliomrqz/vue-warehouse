@@ -9,6 +9,8 @@
 
 # Vue.js Warehouse
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bazzite/vue-warehouse.svg)](https://greenkeeper.io/)
+
 A Cross-browser storage for **Vue.js** and **Nuxt.js**, with plugins support and easy extensibility based on **Store.js**.
 
 This plugin will **pick the best available browser storage**, and automatically **falls back to the first available** storage that works.
