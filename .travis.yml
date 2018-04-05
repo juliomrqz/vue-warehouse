@@ -8,20 +8,12 @@ notifications:
 node_js:
   - "6"
   - "8"
-before_install:
-  - yarn global add greenkeeper-lockfile@1
 install: npm install
 before_script:
-  - greenkeeper-lockfile-update
   - npm prune
 script:
   - yarn lint
   - yarn test
   - yarn build
-after_script:
-  - greenkeeper-lockfile-upload
 after_success:
   - yarn report-coverage
-env:
-  global:
-    secure: l7IiWcjI4EgKrDOQ20g5oy0oU0OQhDdoXwOkpep4XV10mlvxJsLHthFMSDpsECIABeBOOXCxB/ZeiSo2OUNFEltFyCssMux26TVg4XpLX/duYWvcOBlRci8FvFK3E39hX2zG6KTHJUFZDVkgTWb/oYu6QDd7Cry02yFWg8mnZgM6zFeOdpwjQpCaZIdFCpQ3uqoh10dqoLQ3ZYb70wCu43bV/nmoT5LJVDI1YiFxNDdf3CUGB3zMislNO8d0vE4N+DxN6EepsoX0RVHckEtCK6tEujCwuKWO2G1LB42vyofRiCdsUNJ6nXF5BfSIIfzId7yF8lPrOUyVHBwWLITahHG0bGejUGf9MAWeFtj3J//9JviccgpbULghdVJWJTwW5kH4la3zJvrFCDlgd+dqsOaxStM39CfyuewiPo+flf0zqraz56pR8mYAEQ98poIIy6Kxo1JEKL5qCXUXucyLfdtcfL5IdsZTPaUdf/yPON3a3chUDdjYhAGZzN13902Ay58QBd5K5Kp5zxJRioyFP77eqNkTUbCSqtLI1BGJSO6dy3d04EWEddXbQHfF25MargsyfhH4inDe+tIOt3CKkrZ7z6iuMHXia7tTlktgwVzqmYwZ0pWwjcIgtDYRfy+v0sPVTsovbL6s6JtH0iLmbsAntaS7nF4IJvC3au9Yrbs=
