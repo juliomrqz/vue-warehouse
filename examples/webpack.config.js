@@ -4,6 +4,7 @@ const webpack = require('webpack')
 
 module.exports = {
   devtool: 'inline-source-map',
+  mode: process.env.NODE_ENV || 'development',
 
   entry: fs.readdirSync(__dirname).reduce((entries, dir) => {
     const fullDir = path.join(__dirname, dir)
@@ -44,11 +45,21 @@ module.exports = {
     __dirname: true
   },
 
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        default: false,
+        commons: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'shared',
+          filename: 'shared.js',
+          chunks: 'all'
+        }
+      }
+    }
+  },
+
   plugins: [
-    new webpack.optimize.CommonsChunkPlugin({
-      name: 'shared',
-      filename: 'shared.js'
-    }),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(
         process.env.NODE_ENV || 'development'
