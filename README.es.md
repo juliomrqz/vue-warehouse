@@ -1,6 +1,7 @@
 [![Proyecto Bazzite](https://img.shields.io/badge/Proyecto-Bazzite-blue.svg?style=flat-square)](https://www.bazzite.com/docs/vue-warehouse)
 [![Codacy Badge](https://img.shields.io/codacy/grade/6fd62c3807d84982bfbd6e3298707bef.svg?style=flat-square)](https://www.codacy.com/app/bazzite/vue-warehouse?utm_source=github.com&utm_medium=referral&utm_content=bazzite/vue-warehouse&utm_campaign=Badge_Grade)
 [![Travis](https://img.shields.io/travis/bazzite/vue-warehouse.svg?style=flat-square)](https://travis-ci.org/bazzite/vue-warehouse)
+[![Build status](https://ci.appveyor.com/api/projects/status/5ihdnfef7siyph3n?svg=true)](https://ci.appveyor.com/project/bazzite/vue-warehouse)
 [![codecov](https://img.shields.io/codecov/c/github/bazzite/vue-warehouse/develop.svg?style=flat-square)](https://codecov.io/gh/bazzite/vue-warehouse)
 [![David](https://img.shields.io/david/peer/bazzite/vue-warehouse.svg?style=flat-square)](https://david-dm.org/bazzite/vue-warehouse?type=peer)
 [![David](https://img.shields.io/david/dev/bazzite/vue-warehouse.svg?style=flat-square)](https://david-dm.org/bazzite/vue-warehouse?type=dev)
