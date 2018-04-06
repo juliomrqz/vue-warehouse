@@ -1,10 +1,10 @@
 ---
 title: Soporte para Nuxt.js
 description: Vue.js Warehouse support for Nuxt.js
-order: 3
-dateCreated: 2018-03-29T10:57:00-04:00
-dateModified: 2018-03-30T18:57:00-04:00
-datePublished: 2018-03-30
+order: '3'
+dateCreated: '2018-03-29 14:57:00 +0000'
+dateModified: '2018-03-30 22:57:00 +0000'
+datePublished: '2018-03-30'
 ---
 
 # Soporte para Nuxt.js
@@ -99,7 +99,7 @@ Definir un motor personalizado no es muy diferente a la definición de complemen
 }
 ```
 
-## Nombre personalizado del módulo
+### Nombre personalizado del módulo
 
 Si por algún motivo deseas cambiar el nombre del módulo, puedes hacerlo de esta manera:
 
@@ -206,28 +206,28 @@ A continuación se muestran todas las opciones disponibles que puedes usar con N
         <td style="text-align:left">
           <code>store</code>
         </td>
-        <td style="text-align:left">Object</td>
-        <td style="text-align:left">Un *store* reúne el motor, los almacenamientos y los complementos</td>
+        <td style="text-align:left">String</td>
+        <td style="text-align:left">Un "store" reúne el motor, los almacenamientos y los complementos</td>
       </tr>
       <tr>
         <td style="text-align:left">
           <code>engine</code>
         </td>
-        <td style="text-align:left">Object</td>
+        <td style="text-align:left">String</td>
         <td style="text-align:left">Un motor crea la API</td>
       </tr>
       <tr>
         <td style="text-align:left">
           <code>storages</code>
         </td>
-        <td style="text-align:left">Array of objects</td>
+        <td style="text-align:left">An Array of strings</td>
         <td style="text-align:left">Una lista de almacenamientos. Un almacenamiento define dónde se almacenarán los datos.</td>
       </tr>
       <tr>
         <td style="text-align:left">
           <code>plugins</code>
         </td>
-        <td style="text-align:left">Array of objects</td>
+        <td style="text-align:left">An Array of strings</td>
         <td style="text-align:left">Una lista de complementos. Un complemento extiende la funcionalidad predeterminada de almacenamiento de clave/valor.</td>
       </tr>
       <tr>
@@ -240,8 +240,3 @@ A continuación se muestran todas las opciones disponibles que puedes usar con N
     </tbody>
   </table>
 </div>
-
-
-[npm]: https://www.npmjs.com/
-[node]: https://nodejs.org
-[store.js]: https://github.com/marcuswestin/store.js/
