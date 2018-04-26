@@ -172,8 +172,8 @@ Se espera que todos los que participen en este proyecto acepten acatar el [Códi
 
 Código publicado bajo la [Licencia MIT][license-page].
 
-[npm]: https://www.npmjs.com/
-[node]: https://nodejs.org
+[npm-homepage]: https://www.npmjs.com/
+[node-homepage]: https://nodejs.org
 [storejs]: https://github.com/marcuswestin/store.js/
 [documentation]: https://www.bazzite.com/es/docs/vue-warehouse?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
 [contributing]: https://www.bazzite.com/es/docs/vue-warehouse/contributing?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
