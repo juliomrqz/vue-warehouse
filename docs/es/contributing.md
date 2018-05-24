@@ -2,14 +2,14 @@
 title: Contribución
 description: Pasos para facilitar el desarrollo y la depuración de Vue.js Warehouse
 order: 5
-dateCreated: 2018-03-29T10:57:00-04:00
-dateModified: 2018-03-29T10:57:00-04:00
+dateCreated: 2018-03-29T10:57:00-04:30
+dateModified: 2018-05-21T10:30:00-04:30
 datePublished: 2018-03-30
 ---
 
 # Contribución
 
-Asegúrese de leer esta ** Guía de contribución ** antes de hacer una contribución.
+Asegúrese de leer esta **Guía de contribución** antes de hacer una contribución.
 
 ## Configuración de desarrollo
 

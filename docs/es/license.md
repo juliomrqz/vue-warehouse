@@ -1,9 +1,9 @@
 ---
 title: Licencia
-description: Terms and conditions intended to guarantee how Vue.js Warehouse must be used, modified and/or shared.
+description: Los términos y condiciones pretenden garantizar cómo se debe usar, modificar y/o compartir Vue.js Warehouse.
 order: 6
-dateCreated: 2018-03-29T10:57:00-04:00
-dateModified: 2018-03-29T10:57:00-04:00
+dateCreated: 2018-03-29T10:57:00-04:30
+dateModified: 2018-05-21T10:30:00-04:30
 datePublished: 2018-03-30
 ---
 
