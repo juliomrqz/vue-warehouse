@@ -74,7 +74,7 @@
     "codecov.io": "^0.1.6",
     "cross-env": "^5.1.4",
     "es6-promise": "^4.2.4",
-    "eslint": "^4.15.0",
+    "eslint": "^5.0.0",
     "eslint-config-standard": "^11.0.0",
     "eslint-friendly-formatter": "^4.0.0",
     "eslint-loader": "^2.0.0",
