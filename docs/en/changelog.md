@@ -3,13 +3,17 @@ title: Change Log
 description: A record of all notable changes made to Vue.js Warehouse.
 order: 6
 dateCreated: 2018-03-29T10:57:00-04:00
-dateModified: 2018-03-29T10:57:00-04:00
+dateModified: 2018-07-13T13:10:00-04:00
 datePublished: 2018-03-30
 ---
 
 # Change Log
 
 A record of all notable changes made to Vue.js Warehouse.
+
+## [1.0.1](https://github.com/bazzite/vue-warehouse/tree/1.0.1) (2018-07-13)
+
+- Maintenance Update
 
 ## [1.0.0](https://github.com/bazzite/vue-warehouse/tree/1.0.0) (2018-04-02)
 
