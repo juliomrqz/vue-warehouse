@@ -6,7 +6,6 @@ environment:
     - nodejs_version: "9"
 
 cache:
-  - "%LOCALAPPDATA%\\Yarn"
   - node_modules
 
 # Install scripts. (runs after repo cloning)
@@ -14,17 +13,16 @@ install:
   # Get the latest stable version of Node.js
   - ps: Install-Product node $env:nodejs_version
   # install modules
-  - yarn install
+  - npm install
 
 # Post-install test scripts.
 test_script:
   # Output useful info for debugging.
   - node --version
-  # - npm --version
-  - yarn --version
+  - npm --version
   # run tests
-  - yarn test
-  - yarn build
+  - npm run test
+  - npm run build
 
 # Don't actually build.
 build: off

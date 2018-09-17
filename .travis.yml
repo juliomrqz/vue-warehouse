@@ -14,7 +14,7 @@ install: npm install
 before_script:
   - npm prune
 script:
-  - yarn test
-  - yarn build
+  - npm run test
+  - npm run build
 after_success:
-  - yarn report-coverage
+  - npm run report-coverage
