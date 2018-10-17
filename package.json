@@ -60,6 +60,8 @@
     "vuex": "^3.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^7.2.1",
+    "@commitlint/config-conventional": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^10.0.0",
     "babel-jest": "^23.6.0",
@@ -85,6 +87,7 @@
     "eslint-plugin-vue-libs": "^3.0.0",
     "express": "^4.16.3",
     "express-urlrewrite": "^1.2.0",
+    "husky": "^1.1.2",
     "jest": "^23.6.0",
     "rollup": "^0.66.0",
     "rollup-plugin-buble": "^0.19.2",
@@ -107,5 +110,11 @@
   "engines": {
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "npm run lint"
+    }
   }
 }
