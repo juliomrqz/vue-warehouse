@@ -15,7 +15,7 @@ A Cross-browser storage for **Vue.js** and **Nuxt.js**, with plugins support and
 
 This plugin will **pick the best available browser storage**, and automatically **falls back to the first available** storage that works.
 
-*Read this in other languages: [English](README.md), [Español](README.es.md)*
+*Read this in other languages: [English][documentation], [Español][documentation-es]*
 
 ## Features
 
@@ -149,15 +149,13 @@ store.state.warehouse.oldValue  // last value       -> { name: 'John Doe' }
 
 ## Documentation & Support
 
-If you want extra details of how to configure and use this plugin, the full documentation is available at [https://www.bazzite.com/docs/vue-warehouse][documentation].
+- If you want extra details of how to configure and use this plugin, the full documentation is available at [https://www.bazzite.com/docs/vue-warehouse][documentation].
+- For questions and support, use the [Issues section][issues].
+- You may also want to [follow the company supporting this project on Twitter][twitter].
 
-For questions and support, use the [Issues section][issues].
+### Professional Support
 
-You may also want to [follow the company supporting this project on Twitter][twitter].
-
-### Commercial Support
-
-This project is sponsored by [Bazzite][bazzite-website]. If you require assistance on your project(s), please contact us at [https://www.bazzite.com/contact][contact-page].
+This project is sponsored by [Bazzite][bazzite-website]. If you require Professional Assistance on your project(s), please contact us at [https://www.bazzite.com/contact][contact-page].
 
 ## Contributing
 
@@ -175,6 +173,7 @@ Code released under the  [MIT License][license-page].
 [node-homepage]: https://nodejs.org
 [storejs]: https://github.com/marcuswestin/store.js/
 [documentation]: https://www.bazzite.com/docs/vue-warehouse?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
+[documentation-es]: https://www.bazzite.com/es/docs/vue-warehouse?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
 [contributing]: https://www.bazzite.com/docs/vue-warehouse/contributing?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
 [code-of-conduct]: https://www.bazzite.com/open-source/code-of-conduct?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
 [issues]: https://github.com/bazzite/vue-warehouse/issues
