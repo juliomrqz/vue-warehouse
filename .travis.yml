@@ -10,11 +10,9 @@ node_js:
   - "8"
   - "9"
   - "10"
-install: npm install
-before_script:
-  - npm prune
+install: yarn install
 script:
-  - npm run test
-  - npm run build
+  - yarn run test
+  - yarn run build
 after_success:
-  - npm run report-coverage
+  - yarn run report-coverage

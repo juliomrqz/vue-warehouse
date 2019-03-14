@@ -25,16 +25,16 @@
   ],
   "scripts": {
     "dev": "node examples/server.js",
-    "start": "npm run dev",
+    "start": "yarn run dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
-    "test": "npm run lint && npm run unit && npm run test:types",
+    "test": "yarn run lint && yarn run unit && yarn run test:types",
     "test:types": "tsc -p types/test",
     "lint": "eslint --ext .js src test/unit examples",
     "report-coverage": "cat ./test/unit/coverage/lcov.info | ./node_modules/.bin/codecov",
-    "build": "npm run build:esm && npm run build:umd",
+    "build": "yarn run build:esm && yarn run build:umd",
     "build:esm": "rollup -c ./build/rollup.esm.config.js",
     "build:umd": "rollup -c ./build/rollup.umd.config.js",
-    "deploy": "npm run test && npm run build && npm publish",
+    "deploy": "yarn run test && yarn run build && npm publish",
     "deploy-examples": "now --team bazzite --public && now --team bazzite  alias vue-warehouse-examples"
   },
   "keywords": [
@@ -64,7 +64,7 @@
     "@commitlint/config-conventional": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^10.0.0",
-    "babel-jest": "^23.6.0",
+    "babel-jest": "^24.5.0",
     "babel-loader": "^8.0.2",
     "babel-plugin-dynamic-import-node": "^2.1.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
@@ -76,7 +76,7 @@
     "codecov.io": "^0.1.6",
     "cross-env": "^5.1.4",
     "es6-promise": "^4.2.5",
-    "eslint": "^5.6.0",
+    "eslint": "^5.15.1",
     "eslint-config-standard": "^12.0.0",
     "eslint-friendly-formatter": "^4.0.0",
     "eslint-loader": "^2.0.0",
@@ -88,24 +88,24 @@
     "express": "^4.16.3",
     "express-urlrewrite": "^1.2.0",
     "husky": "^1.1.2",
-    "jest": "^23.6.0",
-    "rollup": "^1.0.0",
+    "jest": "^24.5.0",
+    "rollup": "^1.6.0",
     "rollup-plugin-buble": "^0.19.2",
-    "rollup-plugin-commonjs": "^9.1.6",
+    "rollup-plugin-commonjs": "^9.2.1",
     "rollup-plugin-filesize": "^6.0.0",
-    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-node-resolve": "^4.0.1",
     "rollup-plugin-replace": "^2.0.0",
     "rollup-plugin-uglify": "^6.0.0",
     "semver": "^5.5.1",
     "shelljs": "^0.8.1",
     "store": "^2.0.12",
-    "typescript": "^3.0.3",
-    "vue": "^2.5.0",
-    "vue-loader": "^15.4.2",
-    "vue-template-compiler": "^2.5.16",
+    "typescript": "^3.3.3333",
+    "vue": "^2.6.9",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.9",
     "vuex": "^3.0.0",
-    "webpack": "^4.19.0",
-    "webpack-dev-middleware": "^3.3.0"
+    "webpack": "^4.29.6",
+    "webpack-dev-middleware": "^3.6.1"
   },
   "engines": {
     "node": ">= 6.0.0",
@@ -114,7 +114,7 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "npm run lint"
+      "pre-commit": "yarn run lint"
     }
   }
 }
