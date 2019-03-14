@@ -12,6 +12,10 @@ title: "Registro de Cambios"
 
 Un registro de todos los cambios notables realizados en Vue.js Warehouse.
 
+## [1.0.2](https://github.com/bazzite/vue-warehouse/tree/v1.0.2) (2019-03-14)
+
+- Actualización de Mantenimiento
+
 ## [1.0.1](https://github.com/bazzite/vue-warehouse/tree/v1.0.1) (2018-07-13)
 
 - Actualización de Mantenimiento
