@@ -1,11 +1,12 @@
 ---
-title: Getting Started
-description: A Cross-browser storage for Vue.js and Nuxt.js, with plugins support and easy extensibility based on Store.js.
-order: 1
-dateCreated: 2018-03-29T10:57:00-04:00
-dateModified: 2018-03-31T10:57:00-04:00
-datePublished: 2018-03-30
+permalink: /docs/vue-warehouse/
+created: "2018-03-29T10:57:00Z"
+description: "A Cross-browser storage for Vue.js and Nuxt.js, with plugins support and easy extensibility based on Store.js."
+published: "2018-03-30T23:11:58.990577Z"
+title: "Getting Started"
 ---
+
+<Canonical />
 
 # Vue.js Warehouse
 

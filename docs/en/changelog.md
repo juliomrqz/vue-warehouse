@@ -1,11 +1,13 @@
 ---
-title: Change Log
-description: A record of all notable changes made to Vue.js Warehouse.
-order: 6
-dateCreated: 2018-03-29T10:57:00-04:00
-dateModified: 2018-07-13T13:13:00-04:00
-datePublished: 2018-03-30
+permalink: /docs/vue-warehouse/changelog
+created: "2018-03-29T10:57:00Z"
+description: "A record of all notable changes made to Vue.js Warehouse."
+published: "2018-03-30T23:30:28.849920Z"
+slug: "changelog"
+title: "Change Log"
 ---
+
+<Canonical />
 
 # Change Log
 

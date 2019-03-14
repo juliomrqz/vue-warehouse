@@ -1,11 +1,12 @@
 ---
-title: Nuxt.js Support
-description: Vue.js Warehouse support for Nuxt.js
-order: 3
-dateCreated: 2018-03-29T10:57:00-04:00
-dateModified: 2018-03-30T18:57:00-04:00
-datePublished: 2018-03-30
+permalink: /docs/vue-warehouse/nuxt
+created: "2018-03-29T10:57:00Z"
+description: "Vue.js Warehouse support for Nuxt.js"
+published: "2018-03-30T23:24:15.015568Z"
+title: "Nuxt.js Support"
 ---
+
+<Canonical />
 
 # Nuxt.js Support
 

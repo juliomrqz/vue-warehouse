@@ -1,17 +1,18 @@
 ---
-title: License
-description: Terms and conditions intended to guarantee how Vue.js Warehouse must be used, modified and/or shared.
-order: 7
-dateCreated: 2018-03-29T10:57:00-04:00
-dateModified: 2018-03-29T10:57:00-04:00
-datePublished: 2018-03-30
+permalink: /docs/vue-warehouse/license
+created: "2018-03-29T10:57:00Z"
+description: "Terms and conditions intended to guarantee how Vue.js Warehouse must be used, modified and/or shared."
+published: "2018-03-30T23:32:04Z"
+title: "License"
 ---
+
+<Canonical />
 
 # License
 
 The MIT License (MIT)
 
-Copyright (c) 2018, Bazzite
+Copyright (c) 2019, Bazzite
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

@@ -1,11 +1,12 @@
 ---
-title: Contributing
-description: Steps for easier development and debugging purposes of Vue.js Warehouse
-order: 5
-dateCreated: 2018-03-29T10:57:00-04:00
-dateModified: 2018-03-29T10:57:00-04:00
-datePublished: 2018-03-30
+permalink: /docs/vue-warehouse/contributing
+created: "2018-03-29T10:57:00Z"
+description: "Steps for easier development and debugging purposes of Vue.js Warehouse."
+published: "2018-03-30T23:28:40.392224Z"
+title: "Contributing"
 ---
+
+<Canonical />
 
 # Contributing
 

@@ -1,11 +1,12 @@
 ---
-title: Primeros pasos
-description: Almacenamiento entre navegadores para Vue.js and Nuxt.js, con soporte de complementos y fácil extensibilidad basado en Store.js.
-order: 1
-dateCreated: 2018-03-29T10:57:00-04:00
-dateModified: 2018-03-31T10:57:00-04:00
-datePublished: 2018-03-30
+permalink: /docs/vue-warehouse/
+created: "2018-03-29T10:57:00Z"
+description: "Almacenamiento entre navegadores para Vue.js and Nuxt.js, con soporte de complementos y fácil extensibilidad basado en Store.js."
+published: "2018-03-30T23:11:58.990577Z"
+title: "Primeros pasos"
 ---
+
+<Canonical />
 
 # Vue.js Warehouse
 

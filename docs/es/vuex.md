@@ -1,11 +1,12 @@
 ---
-title: Soporte para Vuex
-description: Soporte de Vue.js Warehouse support para sincronizar los cambios de valores almacenados con el estado Vuex.
-order: 2
-dateCreated: 2018-03-20T10:57:00-04:00
-dateModified: 2018-03-20T10:57:00-04:00
-datePublished: 2018-03-30
+permalink: /docs/vue-warehouse/vuex
+created: "2018-03-20T10:57:00Z"
+description: "Soporte de Vue.js Warehouse support para sincronizar los cambios de valores almacenados con el estado Vuex."
+published: "2018-03-30T23:22:23.790088Z"
+title: "Soporte para Vuex"
 ---
+
+<Canonical />
 
 # Soporte para Vuex
 
