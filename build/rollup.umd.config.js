@@ -4,10 +4,10 @@ import buble from 'rollup-plugin-buble'
 import filesize from 'rollup-plugin-filesize'
 import resolve from 'rollup-plugin-node-resolve'
 import commonjs from 'rollup-plugin-commonjs'
-import { uglify } from 'rollup-plugin-uglify'
+import { terser } from 'rollup-plugin-terser'
 import replace from 'rollup-plugin-replace'
 
-const base = (activateUglify = false) => {
+const base = (activateTerser = false) => {
   return {
     plugins: [
       resolve({
@@ -26,7 +26,7 @@ const base = (activateUglify = false) => {
           NODE_ENV: 'production'
         })
       }),
-      activateUglify ? uglify() : {},
+      activateTerser ? terser() : {},
       filesize()
     ]
   }

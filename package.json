@@ -104,7 +104,7 @@
     "rollup-plugin-filesize": "^6.0.0",
     "rollup-plugin-node-resolve": "^5.0.0",
     "rollup-plugin-replace": "^2.2.0",
-    "rollup-plugin-uglify": "^6.0.0",
+    "rollup-plugin-terser": "^4.0.4",
     "semver": "^6.0.0",
     "shelljs": "^0.8.1",
     "store": "^2.0.12",
