@@ -1,9 +1,7 @@
 # Test against the latest version of this Node.js version
 environment:
   matrix:
-    - nodejs_version: "6"
     - nodejs_version: "8"
-    - nodejs_version: "9"
 
 cache:
   - node_modules
