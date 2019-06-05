@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "name": "vue-warehouse",
+  "alias": "vue-warehouse-examples.bazzite.com",
+  "builds": [
+    { "src": "examples/**/*.html", "use": "@now/static" },
+    { "src": "examples/robots.txt", "use": "@now/static" },
+    {
+      "src": "examples/server.js",
+      "use": "@now/node-server",
+      "config": {
+        "maxLambdaSize": "50mb",
+        "bundle": false
+      }
+    }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/examples/index.html" },
+    { "src": "/advanced", "dest": "/examples/advanced/index.html" },
+    { "src": "/basic", "dest": "/examples/basic/index.html" },
+    { "src": "/vuex-synchronization", "dest": "/examples/vuex-synchronization/index.html" },
+    { "src": "/robots.txt", "dest": "/examples/robots.txt" },
+    {
+      "src": "/(.*)",
+      "dest": "/examples/server.js",
+      "headers": {
+        "cache-control": "public, s-maxage=86400, max-age=600"
+      }
+    }
+  ]
+}
