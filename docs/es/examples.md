@@ -12,10 +12,10 @@ title: "Ejemplos"
 
 Algunos ejemplos que muestran el funcionamiento principal de Vue.js Warehouse.
 
-[Abrir en una Nueva Ventana](https://vue-warehouse-examples.now.sh/)
+[Abrir en una Nueva Ventana](https://vue-warehouse-examples.bazzite.com/)
 
 <br>
 
 <div class="example-iframe">
-  <iframe src="https://vue-warehouse-examples.now.sh/" height="400" width="680" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+  <iframe src="https://vue-warehouse-examples.bazzite.com/" height="400" width="680" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 </div>
