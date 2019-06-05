@@ -1,12 +1,11 @@
 ---
+title: "Soporte para Vuex"
+description: "Soporte de Vue.js Warehouse support para sincronizar los cambios de valores almacenados con el estado Vuex."
 permalink: /docs/vue-warehouse/vuex
 created: "2018-03-20T10:57:00Z"
-description: "Soporte de Vue.js Warehouse support para sincronizar los cambios de valores almacenados con el estado Vuex."
 published: "2018-03-30T23:22:23.790088Z"
-title: "Soporte para Vuex"
+modified: "2019-06-05T12:51:34.314Z"
 ---
-
-<Canonical />
 
 # Soporte para Vuex
 
@@ -28,8 +27,8 @@ Vue.use(VueWarehouse, {
 
 // Arranca tu aplicación ...
 
-// Durante el demontaje de la aplicación/Vue (Por ejemplo, solo usa Vue.js en 
-// una parte de tu aplicación y navegas fuera de esa porción y deseas 
+// Durante el demontaje de la aplicación/Vue (Por ejemplo, solo usa Vue.js en
+// una parte de tu aplicación y navegas fuera de esa porción y deseas
 // liberar/destruir los componentes/recursos de Vue)
 unsync() // Desincroniza el estado de VueWarehouse
 ```

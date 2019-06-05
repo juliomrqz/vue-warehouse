@@ -1,12 +1,11 @@
 ---
+title: "Examples"
+description: "Examples that show the features of Vue.js Warehouse."
 permalink: /docs/vue-warehouse/examples
 created: "2018-02-01T10:57:00Z"
-description: "Examples that show the features of Vue.js Warehouse."
 published: "2018-03-30T23:25:58.439763Z"
-title: "Examples"
+modified: "2019-06-05T12:51:34.314Z"
 ---
-
-<Canonical />
 
 # Examples
 

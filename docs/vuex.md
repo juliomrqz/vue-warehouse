@@ -1,12 +1,11 @@
 ---
+title: "Vuex Support"
+description: "Vue.js Warehouse support for syncing the stored values changes with Vuex state."
 permalink: /docs/vue-warehouse/vuex
 created: "2018-03-20T10:57:00Z"
-description: "Vue.js Warehouse support for syncing the stored values changes with Vuex state."
 published: "2018-03-30T23:22:23.790088Z"
-title: "Vuex Support"
+modified: "2019-06-05T12:51:34.314Z"
 ---
-
-<Canonical />
 
 # Vuex Support
 
@@ -28,7 +27,7 @@ Vue.use(VueWarehouse, {
 
 // bootstrap your app...
 
-// During app/Vue teardown (e.g., you only use Vue.js in a portion of your app and you 
+// During app/Vue teardown (e.g., you only use Vue.js in a portion of your app and you
 // navigate away from that portion and want to release/destroy Vue components/resources)
 unsync() // Unsyncs store from VueWarehouse
 ```

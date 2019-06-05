@@ -1,12 +1,11 @@
 ---
+title: "Getting Started"
+description: "A Cross-browser storage for Vue.js and Nuxt.js, with plugins support and easy extensibility based on Store.js."
 permalink: /docs/vue-warehouse/
 created: "2018-03-29T10:57:00Z"
-description: "A Cross-browser storage for Vue.js and Nuxt.js, with plugins support and easy extensibility based on Store.js."
 published: "2018-03-30T23:11:58.990577Z"
-title: "Getting Started"
+modified: "2019-06-05T12:51:34.314Z"
 ---
-
-<Canonical />
 
 # Vue.js Warehouse
 
@@ -86,7 +85,7 @@ this.$warehouse.each(function(value, key) {
 
 ## Plugins
 
-Any plugin that is supported by **Store.js** can be used. You can create a custom plugin or use any from this [list][store-plugins-list]. 
+Any plugin that is supported by **Store.js** can be used. You can create a custom plugin or use any from this [list][store-plugins-list].
 
 Let's see an example where you can define an expiration date and default values:
 
@@ -126,7 +125,7 @@ this.$warehouse.remove('user') // return the default value -> { name: 'John Doe'
 
 ## Storages
 
-Any storage that is supported by **Store.js** can be used. The best available storage will be picked, and automatically falls back to the first available storage that works. 
+Any storage that is supported by **Store.js** can be used. The best available storage will be picked, and automatically falls back to the first available storage that works.
 
 A Storage basically defines where the data will be stored. You can create a [custom storage][store-custom-storage] or use any from this [list][store-storages-list].
 
@@ -255,7 +254,7 @@ Below are all the supported options you can play around.
           <code>moduleName</code>
         </td>
         <td style="text-align:left">String</td>
-        <td style="text-align:left">The name used to access the module in a Vue instance. 
+        <td style="text-align:left">The name used to access the module in a Vue instance.
         <br><strong>Default value:</strong> warehouse</td>
       </tr>
       <tr>

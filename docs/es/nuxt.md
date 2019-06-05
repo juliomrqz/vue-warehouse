@@ -1,12 +1,11 @@
 ---
+title: "Soporte para Nuxt.js"
+description: "Soporte de Vue.js Warehouse para Nuxt.js"
 permalink: /docs/vue-warehouse/nuxt
 created: "2018-03-29T10:57:00Z"
-description: "Soporte de Vue.js Warehouse para Nuxt.js"
 published: "2018-03-30T23:24:15.015568Z"
-title: "Soporte para Nuxt.js"
+modified: "2019-06-05T12:51:34.314Z"
 ---
-
-<Canonical />
 
 # Soporte para Nuxt.js
 

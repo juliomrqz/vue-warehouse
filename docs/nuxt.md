@@ -1,12 +1,11 @@
 ---
+title: "Nuxt.js Support"
+description: "Vue.js Warehouse support for Nuxt.js"
 permalink: /docs/vue-warehouse/nuxt
 created: "2018-03-29T10:57:00Z"
-description: "Vue.js Warehouse support for Nuxt.js"
 published: "2018-03-30T23:24:15.015568Z"
-title: "Nuxt.js Support"
+modified: "2019-06-05T12:51:34.314Z"
 ---
-
-<Canonical />
 
 # Nuxt.js Support
 
@@ -44,18 +43,18 @@ If no option is specified, `require('store/dist/store.modern')` will be used as 
 
 ## Plugins
 
-You can defined plugins indicating the location inside your project structure or an npm package. 
+You can defined plugins indicating the location inside your project structure or an npm package.
 
 ```javascript
 {
   modules: [
-    ['vue-warehouse/nuxt', 
-      { 
+    ['vue-warehouse/nuxt',
+      {
         plugins: [
           '~utils/my-custom-plugin',
           'store/plugins/expire',
           'store/plugins/defaults'
-        ] 
+        ]
       }
     ],
   ]
@@ -71,13 +70,13 @@ You can define storages the same way you define plugins:
 ```javascript
 {
   modules: [
-    ['vue-warehouse/nuxt', 
-      { 
+    ['vue-warehouse/nuxt',
+      {
         storages: [
           '~utils/my-custom-storage',
           'store/storages/localStorage',
           'store/storages/cookieStorage'
-        ] 
+        ]
       }
     ],
   ]
@@ -91,8 +90,8 @@ Defining a custom engine is not different from defining plugins and storages:
 ```javascript
 {
   modules: [
-    ['vue-warehouse/nuxt', 
-      { 
+    ['vue-warehouse/nuxt',
+      {
         engine: '~utils/my-custom-engine'
       }
     ],
@@ -107,8 +106,8 @@ If for any reason you want to change the name of the module you can do it this w
 ```javascript
 {
   modules: [
-    ['vue-warehouse/nuxt', 
-      { 
+    ['vue-warehouse/nuxt',
+      {
         moduleName: 'trunkOfMemories'
       }
     ],
@@ -152,8 +151,8 @@ The changes of the stored values in the user's browser (localStorage, cookie, et
 ```javascript
 {
   modules: [
-    ['vue-warehouse/nuxt', 
-      { 
+    ['vue-warehouse/nuxt',
+      {
         vuex: true
       }
     ],
@@ -166,8 +165,8 @@ You can optionally set a custom vuex module name:
 ```javascript
 {
   modules: [
-    ['vue-warehouse/nuxt', 
-      { 
+    ['vue-warehouse/nuxt',
+      {
         vuex: {
           moduleName: 'vuexTrunkOfMemories'
         }
@@ -200,7 +199,7 @@ Below are all the available options you can use with Nuxt.js.
           <code>moduleName</code>
         </td>
         <td style="text-align:left">String</td>
-        <td style="text-align:left">The name used to access the module in a Vue instance. 
+        <td style="text-align:left">The name used to access the module in a Vue instance.
         <br><strong>Default value:</strong> warehouse</td>
       </tr>
       <tr>

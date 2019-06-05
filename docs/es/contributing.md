@@ -1,12 +1,11 @@
 ---
+title: "Contribución"
+description: "Pasos para facilitar el desarrollo y la depuración de Vue.js Warehouse."
 permalink: /docs/vue-warehouse/contributing
 created: "2018-03-29T10:57:00Z"
-description: "Pasos para facilitar el desarrollo y la depuración de Vue.js Warehouse."
 published: "2018-03-30T23:28:40.392224Z"
-title: "Contribución"
+modified: "2019-06-05T12:51:34.314Z"
 ---
-
-<Canonical />
 
 # Contribución
 

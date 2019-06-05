@@ -1,12 +1,11 @@
 ---
+title: "Registro de Cambios"
+description: "Un registro de todos los cambios notables realizados en Vue.js Warehouse."
 permalink: /docs/vue-warehouse/changelog
 created: "2018-03-29T10:57:00Z"
-description: "Un registro de todos los cambios notables realizados en Vue.js Warehouse."
 published: "2018-03-30T23:30:28.849920Z"
-title: "Registro de Cambios"
+modified: "2019-06-05T12:51:34.314Z"
 ---
-
-<Canonical />
 
 # Registro de cambios
 

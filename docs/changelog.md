@@ -1,13 +1,11 @@
 ---
+title: "Change Log"
+description: "A record of all notable changes made to Vue.js Warehouse."
 permalink: /docs/vue-warehouse/changelog
 created: "2018-03-29T10:57:00Z"
-description: "A record of all notable changes made to Vue.js Warehouse."
 published: "2018-03-30T23:30:28.849920Z"
-slug: "changelog"
-title: "Change Log"
+modified: "2019-06-05T12:51:34.314Z"
 ---
-
-<Canonical />
 
 # Change Log
 

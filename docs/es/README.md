@@ -1,12 +1,11 @@
 ---
+title: "Primeros pasos"
+description: "Almacenamiento entre navegadores para Vue.js and Nuxt.js, con soporte de complementos y fácil extensibilidad basado en Store.js."
 permalink: /docs/vue-warehouse/
 created: "2018-03-29T10:57:00Z"
-description: "Almacenamiento entre navegadores para Vue.js and Nuxt.js, con soporte de complementos y fácil extensibilidad basado en Store.js."
 published: "2018-03-30T23:11:58.990577Z"
-title: "Primeros pasos"
+modified: "2019-06-05T12:51:34.314Z"
 ---
-
-<Canonical />
 
 # Vue.js Warehouse
 
@@ -86,7 +85,7 @@ this.$warehouse.each(function(value, key) {
 
 ## Complementos (plugins)
 
-Cualquier complemento compatible con **Store.js** se puede usar. Puedes crear un complemento personalizado o usar cualquiera de esta [lista][store-plugins-list]. 
+Cualquier complemento compatible con **Store.js** se puede usar. Puedes crear un complemento personalizado o usar cualquiera de esta [lista][store-plugins-list].
 
 Veamos un ejemplo donde puedes definir una fecha de vencimiento y valores predeterminados:
 
@@ -204,7 +203,7 @@ Vue.use(VueWarehouse, {
 
 Si defines la propiedad `storages`, debes deininir un **motoro (engine)**. Los complementos son siempre opcionales.
 
-## Nombre personalizado del módulo 
+## Nombre personalizado del módulo
 
 Si por algún motivo deseas cambiar el nombre del módulo, puedes hacerlo de esta manera:
 
@@ -254,7 +253,7 @@ A continuación se encuentran todas las opciones compatibles con que puedes juga
           <code>moduleName</code>
         </td>
         <td style="text-align:left">String</td>
-        <td style="text-align:left">El nombre utilizado para acceder al módulo en una instancia de Vue. 
+        <td style="text-align:left">El nombre utilizado para acceder al módulo en una instancia de Vue.
         <br><strong>Valor por defecto:</strong> warehouse</td>
       </tr>
       <tr>
