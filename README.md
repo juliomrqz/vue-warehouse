@@ -170,6 +170,8 @@ Everyone participating in this project is expected to agree to abide by the [Cod
 
 Code released under the  [MIT License][license-page].
 
+![](https://ga-beacon.appspot.com/UA-65885578-17/bazzite/vue-warehouse?pixel)
+
 [npm-homepage]: https://www.npmjs.com/
 [node-homepage]: https://nodejs.org
 [storejs]: https://github.com/marcuswestin/store.js/
