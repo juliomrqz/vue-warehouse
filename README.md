@@ -5,7 +5,6 @@
 [![codecov](https://img.shields.io/codecov/c/github/bazzite/vue-warehouse/develop.svg)](https://codecov.io/gh/bazzite/vue-warehouse)
 [![David](https://img.shields.io/david/peer/bazzite/vue-warehouse.svg)](https://david-dm.org/bazzite/vue-warehouse?type=peer)
 [![David](https://img.shields.io/david/dev/bazzite/vue-warehouse.svg)](https://david-dm.org/bazzite/vue-warehouse?type=dev)
-[![Greenkeeper badge](https://badges.greenkeeper.io/bazzite/vue-warehouse.svg)](https://greenkeeper.io/)
 [![version](https://img.shields.io/npm/v/vue-warehouse.svg)](https://www.npmjs.com/package/vue-warehouse)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/bazzite/vue-warehouse/develop/LICENSE)
 
