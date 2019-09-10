@@ -108,7 +108,7 @@
     "semver": "6.3.0",
     "shelljs": "0.8.3",
     "store": "2.0.12",
-    "typescript": "3.5.3",
+    "typescript": "3.6.3",
     "vue": "2.6.10",
     "vue-loader": "15.7.1",
     "vue-template-compiler": "2.6.10",
