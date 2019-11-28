@@ -14,6 +14,12 @@ Un registro de todos los cambios notables realizados en Vue.js Warehouse.
 
 # [2.0.0](https://github.com/bazzite/vue-warehouse/compare/v1.0.2...v2.0.0) (2019-11-28)
 
+## Funcionalidades
+
+* añade typings para Typescript y mejora le proceso de compilación ([9965dc](https://github.com/bazzite/vue-warehouse/commit/9965dc0f189b03eef99aed9d178e519abd9616a0))
+
+## Refactor
+
 * refactor!: Elimina el soporte para Node.js 8 ([66e7da1](https://github.com/bazzite/vue-warehouse/commit/66e7da19e3ecfe4de2cf6d4e4b4b9d01ce6568e4))
 
 ### CAMBIOS DRÁSTICOS
