@@ -2,7 +2,7 @@
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
   typeof define === 'function' && define.amd ? define(['exports'], factory) :
   (global = global || self, factory(global.VueWarehouseSync = {}));
-}(this, function (exports) { 'use strict';
+}(this, (function (exports) { 'use strict';
 
   // Based on https://github.com/vuejs/vuex-router-sync/blob/master/src/index.js
   var undefinedChanges = {
@@ -160,4 +160,4 @@
 
   Object.defineProperty(exports, '__esModule', { value: true });
 
-}));
+})));
