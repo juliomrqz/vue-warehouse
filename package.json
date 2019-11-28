@@ -35,7 +35,8 @@
     "build:esm": "rollup -c ./build/rollup.esm.config.js",
     "build:umd": "rollup -c ./build/rollup.umd.config.js",
     "deploy": "yarn run test && yarn run build && npm publish",
-    "deploy-examples": "now --team bazzite --public && now --team bazzite  alias vue-warehouse-examples"
+    "deploy-examples": "now --team bazzite --public && now --team bazzite  alias vue-warehouse-examples",
+    "changelog": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
   },
   "keywords": [
     "bazzite",
@@ -83,6 +84,7 @@
     "babel-plugin-dynamic-import-node": "2.3.0",
     "chalk": "3.0.0",
     "codecov": "3.6.1",
+    "conventional-changelog-cli": "2.0.28",
     "cross-env": "6.0.3",
     "es6-promise": "4.2.8",
     "eslint": "6.7.1",
