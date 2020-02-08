@@ -83,7 +83,7 @@
     "babel-loader": "8.0.6",
     "babel-plugin-dynamic-import-node": "2.3.0",
     "chalk": "3.0.0",
-    "codecov": "3.6.4",
+    "codecov": "3.6.5",
     "conventional-changelog-cli": "2.0.31",
     "cross-env": "7.0.0",
     "es6-promise": "4.2.8",
