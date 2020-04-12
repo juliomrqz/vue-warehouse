@@ -4,7 +4,7 @@ description: "Pasos para facilitar el desarrollo y la depuración de Vue.js Ware
 permalink: /docs/vue-warehouse/contributing
 created: "2018-03-29T10:57:00Z"
 published: "2018-03-30T23:28:40.392224Z"
-modified: "2019-06-05T12:51:34.314Z"
+modified: "2020-04-12T15:16:39Z"
 ---
 
 # Contribución
@@ -73,4 +73,4 @@ npm run build
 - Si corriges un error:
   - Proporciona una descripción detallada del error en el PR. Demo en vivo preferido.
 
-[issues-link]: https://github.com/bazzite/vue-warehouse/issues
+[issues-link]: https://github.com/aceforth/vue-warehouse/issues

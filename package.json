@@ -9,12 +9,12 @@
   "typings": "types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bazzite/vue-warehouse.git"
+    "url": "git://github.com/aceforth/vue-warehouse.git"
   },
   "bugs": {
-    "url": "http://github.com/bazzite/vue-warehouse/issues"
+    "url": "http://github.com/aceforth/vue-warehouse/issues"
   },
-  "homepage": "https://www.bazzite.com/docs/vue-warehouse",
+  "homepage": "https://aceforth.com/docs/vue-warehouse",
   "files": [
     "dist",
     "nuxt",
@@ -35,11 +35,11 @@
     "build:esm": "rollup -c ./build/rollup.esm.config.js",
     "build:umd": "rollup -c ./build/rollup.umd.config.js",
     "deploy": "yarn run test && yarn run build && npm publish",
-    "deploy-examples": "now --team bazzite --public && now --team bazzite  alias vue-warehouse-examples",
+    "deploy-examples": "now --team aceforth-opensource --public && now --team aceforth-opensource  alias vue-warehouse-examples",
     "changelog": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
   },
   "keywords": [
-    "bazzite",
+    "aceforth",
     "vue-warehouse",
     "vue",
     "vue.js",
@@ -51,7 +51,7 @@
     "storage",
     "vue-plugin"
   ],
-  "author": "Julio Marquez <j@bazzite.com>",
+  "author": "Julio Marquez <j@aceforth.com>",
   "license": "MIT",
   "peerDependencies": {
     "store": "^2.0.12",

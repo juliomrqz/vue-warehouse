@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "vue-warehouse",
-  "alias": "vue-warehouse-examples.bazzite-opensource.now.sh",
+  "alias": "vue-warehouse-examples.aceforth-opensource.now.sh",
   "builds": [
     { "src": "examples/**/*.html", "use": "@now/static" },
     { "src": "examples/robots.txt", "use": "@now/static" },

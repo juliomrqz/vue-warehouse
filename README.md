@@ -1,12 +1,12 @@
-[![Bazzite Project](https://img.shields.io/badge/Bazzite-project-blue.svg)](https://www.bazzite.com/docs/vue-warehouse)
-[![Codacy Badge](https://img.shields.io/codacy/grade/6fd62c3807d84982bfbd6e3298707bef.svg)](https://www.codacy.com/app/bazzite/vue-warehouse?utm_source=github.com&utm_medium=referral&utm_content=bazzite/vue-warehouse&utm_campaign=Badge_Grade)
-[![Travis](https://img.shields.io/travis/bazzite/vue-warehouse.svg)](https://travis-ci.org/bazzite/vue-warehouse)
-[![Build status](https://ci.appveyor.com/api/projects/status/5ihdnfef7siyph3n?svg=true)](https://ci.appveyor.com/project/bazzite/vue-warehouse)
-[![codecov](https://img.shields.io/codecov/c/github/bazzite/vue-warehouse/develop.svg)](https://codecov.io/gh/bazzite/vue-warehouse)
-[![David](https://img.shields.io/david/peer/bazzite/vue-warehouse.svg)](https://david-dm.org/bazzite/vue-warehouse?type=peer)
-[![David](https://img.shields.io/david/dev/bazzite/vue-warehouse.svg)](https://david-dm.org/bazzite/vue-warehouse?type=dev)
+[![Aceforth Project](https://img.shields.io/badge/Aceforth-project-blue.svg)](https://aceforth.com/docs/vue-warehouse)
+[![Codacy Badge](https://img.shields.io/codacy/grade/6fd62c3807d84982bfbd6e3298707bef.svg)](https://www.codacy.com/app/aceforth/vue-warehouse?utm_source=github.com&utm_medium=referral&utm_content=aceforth/vue-warehouse&utm_campaign=Badge_Grade)
+[![Travis](https://img.shields.io/travis/aceforth/vue-warehouse.svg)](https://travis-ci.org/aceforth/vue-warehouse)
+[![Build status](https://ci.appveyor.com/api/projects/status/5ihdnfef7siyph3n?svg=true)](https://ci.appveyor.com/project/aceforth/vue-warehouse)
+[![codecov](https://img.shields.io/codecov/c/github/aceforth/vue-warehouse/develop.svg)](https://codecov.io/gh/aceforth/vue-warehouse)
+[![David](https://img.shields.io/david/peer/aceforth/vue-warehouse.svg)](https://david-dm.org/aceforth/vue-warehouse?type=peer)
+[![David](https://img.shields.io/david/dev/aceforth/vue-warehouse.svg)](https://david-dm.org/aceforth/vue-warehouse?type=dev)
 [![version](https://img.shields.io/npm/v/vue-warehouse.svg)](https://www.npmjs.com/package/vue-warehouse)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/bazzite/vue-warehouse/develop/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/aceforth/vue-warehouse/develop/LICENSE)
 
 # Vue.js Warehouse
 
@@ -148,14 +148,14 @@ store.state.warehouse.oldValue  // last value       -> { name: 'John Doe' }
 
 ## Documentation & Support
 
-- 📄 If you want extra details of how to configure and use this plugin, the full documentation is available at [https://www.bazzite.com/docs/vue-warehouse][documentation].
+- 📄 If you want extra details of how to configure and use this plugin, the full documentation is available at [https://aceforth.com/docs/vue-warehouse][documentation].
 - 🐞 For Bug reports or Feature requests, use the [Issues section][issues].
 - 💬 For questions, go to [https://spectrum.chat/bazzite/open-source][spectrum-chat].
 - 🚀 You may also want to [follow the company supporting this project on Twitter][twitter].
 
 ### Professional Support
 
-This project is sponsored by [Bazzite][bazzite-website]. If you require Professional Assistance on your project(s), please contact us at [https://www.bazzite.com/contact][contact-page].
+This project is sponsored by [Bazzite][aceforth-website]. If you require Professional Assistance on your project(s), please contact us at [https://aceforth.com/contact][contact-page].
 
 ## Contributing
 
@@ -169,18 +169,18 @@ Everyone participating in this project is expected to agree to abide by the [Cod
 
 Code released under the  [MIT License][license-page].
 
-![](https://ga-beacon.appspot.com/UA-65885578-17/bazzite/vue-warehouse?pixel)
+![](https://ga-beacon.appspot.com/UA-65885578-17/aceforth/vue-warehouse?pixel)
 
 [npm-homepage]: https://www.npmjs.com/
 [node-homepage]: https://nodejs.org
 [storejs]: https://github.com/marcuswestin/store.js/
-[documentation]: https://www.bazzite.com/docs/vue-warehouse?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
-[documentation-es]: https://www.bazzite.com/es/docs/vue-warehouse?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
-[contributing]: https://www.bazzite.com/docs/vue-warehouse/contributing?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
-[code-of-conduct]: https://www.bazzite.com/open-source/code-of-conduct?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
-[issues]: https://github.com/bazzite/vue-warehouse/issues
+[documentation]: https://aceforth.com/docs/vue-warehouse?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
+[documentation-es]: https://aceforth.com/es/docs/vue-warehouse?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
+[contributing]: https://aceforth.com/docs/vue-warehouse/contributing?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
+[code-of-conduct]: https://aceforth.com/open-source/code-of-conduct?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
+[issues]: https://github.com/aceforth/vue-warehouse/issues
 [spectrum-chat]: https://spectrum.chat/bazzite/login?r=https://spectrum.chat/bazzite/open-source
-[twitter]: https://twitter.com/BazziteTech
-[bazzite-website]: https://www.bazzite.com?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
-[contact-page]: https://www.bazzite.com/contact?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
-[license-page]: https://www.bazzite.com/docs/vue-warehouse/license?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
+[twitter]: https://twitter.com/AceforthHQ
+[aceforth-website]: https://aceforth.com?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
+[contact-page]: https://aceforth.com/contact?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
+[license-page]: https://aceforth.com/docs/vue-warehouse/license?utm_source=github&utm_medium=readme&utm_campaign=vue-warehouse
