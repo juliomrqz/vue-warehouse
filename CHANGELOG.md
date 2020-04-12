@@ -1,3 +1,7 @@
+# [2.1.0](https://github.com/aceforth/vue-warehouse/compare/v2.0.0...v2.1.0) (2020-04-12)
+
+* update the parent company
+
 # [2.0.0](https://github.com/aceforth/vue-warehouse/compare/v1.0.2...v2.0.0) (2019-11-28)
 
 ## Features

@@ -4,8 +4,12 @@ description: "A record of all notable changes made to Vue.js Warehouse."
 permalink: /docs/vue-warehouse/changelog
 created: "2018-03-29T10:57:00Z"
 published: "2018-03-30T23:30:28.849920Z"
-modified: "2019-11-28T14:17:11.259Z"
+modified: "2020-04-12T15:22:51Z"
 ---
+
+# [2.1.0](https://github.com/aceforth/vue-warehouse/compare/v2.0.0...v2.1.0) (2020-04-12)
+
+* update the parent company
 
 # Change Log
 
