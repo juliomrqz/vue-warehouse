@@ -74,4 +74,4 @@ npm run build
   - Provide detailed description of the bug in the PR. Live demo preferred.
 
 
-[issues-link]: https://github.com/aceforth/vue-warehouse/issues
+[issues-link]: https://github.com/juliomrqz/vue-warehouse/issues

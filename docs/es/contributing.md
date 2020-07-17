@@ -73,4 +73,4 @@ npm run build
 - Si corriges un error:
   - Proporciona una descripción detallada del error en el PR. Demo en vivo preferido.
 
-[issues-link]: https://github.com/aceforth/vue-warehouse/issues
+[issues-link]: https://github.com/juliomrqz/vue-warehouse/issues

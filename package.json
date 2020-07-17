@@ -9,12 +9,12 @@
   "typings": "types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/aceforth/vue-warehouse.git"
+    "url": "git://github.com/juliomrqz/vue-warehouse.git"
   },
   "bugs": {
-    "url": "http://github.com/aceforth/vue-warehouse/issues"
+    "url": "http://github.com/juliomrqz/vue-warehouse/issues"
   },
-  "homepage": "https://aceforth.com/docs/vue-warehouse",
+  "homepage": "https://marquez.co/docs/vue-warehouse",
   "files": [
     "dist",
     "nuxt",
@@ -39,7 +39,7 @@
     "changelog": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
   },
   "keywords": [
-    "aceforth",
+    "julio-marquez",
     "vue-warehouse",
     "vue",
     "vue.js",
@@ -51,7 +51,7 @@
     "storage",
     "vue-plugin"
   ],
-  "author": "Julio Marquez <j@aceforth.com>",
+  "author": "Julio Marquez <opensource@marquez.co>",
   "license": "MIT",
   "peerDependencies": {
     "store": "^2.0.12",

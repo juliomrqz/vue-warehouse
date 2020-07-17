@@ -4,4 +4,4 @@
 
 Please make sure to read the [Vue.js Warehouse Contributing Guide][link] before making a contribution.
 
-[link]: https://aceforth.com/docs/vue-warehouse/contributing?utm_source=github&utm_medium=contributing&utm_campaign=vue-warehouse
+[link]: https://marquez.co/docs/vue-warehouse/contributing?utm_source=github&utm_medium=contributing&utm_campaign=vue-warehouse
