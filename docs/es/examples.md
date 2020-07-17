@@ -1,13 +1,12 @@
 ---
 title: "Ejemplos"
 description: "Ejemplos que muestran el funcionamiento de Vue.js Warehouse."
-permalink: /docs/vue-warehouse/examples
 created: "2018-02-01T10:57:00Z"
-published: "2018-03-30T23:25:58.439763Z"
-modified: "2020-04-12T15:16:39Z"
+published: "2018-03-30T23:25:58Z"
+modified: "2020-07-17T21:03:44Z"
+position: 4
+category: "Primeros Pasos"
 ---
-
-# Ejemplos
 
 Algunos ejemplos que muestran el funcionamiento principal de Vue.js Warehouse.
 

@@ -1,29 +1,14 @@
 ---
 title: "Nuxt.js Support"
 description: "Vue.js Warehouse support for Nuxt.js"
-permalink: /docs/vue-warehouse/nuxt
 created: "2018-03-29T10:57:00Z"
-published: "2018-03-30T23:24:15.015568Z"
-modified: "2019-06-05T12:51:34.314Z"
+published: "2018-03-30T23:24:15Z"
+modified: "2020-07-17T21:03:44Z"
+position: 3
+category: "Getting started"
 ---
 
-# Nuxt.js Support
-
 Configuring the plugin for Nuxt.js is extremely simple and easy.
-
-## Installation
-
-The installation process is the same you follow for Vue.js:
-
-```bash
-npm install --save store vue-warehouse
-```
-
-or
-
-```bash
-yarn add store vue-warehouse
-```
 
 ## Configuration
 
@@ -178,7 +163,7 @@ You can optionally set a custom vuex module name:
 
 ## Advanced Usage
 
-For a complete guide of how to use this plugin, go to the [Overview](./) page.
+For a complete guide of how to use this plugin, go to the [Overview](/docs/vue-warehouse) page.
 
 ## Options
 

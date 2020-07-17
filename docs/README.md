@@ -1,10 +1,11 @@
 ---
 title: "Getting Started"
 description: "A Cross-browser storage for Vue.js and Nuxt.js, with plugins support and easy extensibility based on Store.js."
-permalink: /docs/vue-warehouse/
 created: "2018-03-29T10:57:00Z"
-published: "2018-03-30T23:11:58.990577Z"
-modified: "2019-06-05T12:51:34.314Z"
+published: "2018-03-30T23:11:58Z"
+modified: "2020-07-17T21:03:44Z"
+position: 1
+category: "Getting started"
 ---
 
 # Vue.js Warehouse
@@ -36,15 +37,22 @@ Some reasons why you could consider to use this plugin:
 
 This module is distributed via [npm][npm-homepage] which is bundled with [node][node-homepage] and should be installed as one of your project's `dependencies`:
 
-```bash
-npm install --save store vue-warehouse
-```
+<docs-code-group>
+  <docs-code-block label="Yarn" active>
 
-or
+  ```bash
+  yarn add store vue-warehouse
+  ```
 
-```bash
-yarn add store vue-warehouse
-```
+  </docs-code-block>
+  <docs-code-block label="NPM">
+
+  ```bash
+  npm install --save store vue-warehouse
+  ```
+
+  </docs-code-block>
+</docs-code-group>
 
 ## Usage
 

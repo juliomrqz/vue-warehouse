@@ -1,13 +1,12 @@
 ---
 title: "Vuex Support"
 description: "Vue.js Warehouse support for syncing the stored values changes with Vuex state."
-permalink: /docs/vue-warehouse/vuex
 created: "2018-03-20T10:57:00Z"
-published: "2018-03-30T23:22:23.790088Z"
-modified: "2019-06-05T12:51:34.314Z"
+published: "2018-03-30T23:22:23Z"
+modified: "2020-07-17T21:03:44Z"
+position: 2
+category: "Getting started"
 ---
-
-# Vuex Support
 
 The stored browser values (localStorage, cookie, etc.) changes can be synced with Vuex state. For example:
 

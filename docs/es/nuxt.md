@@ -1,13 +1,12 @@
 ---
 title: "Soporte para Nuxt.js"
 description: "Soporte de Vue.js Warehouse para Nuxt.js"
-permalink: /docs/vue-warehouse/nuxt
 created: "2018-03-29T10:57:00Z"
-published: "2018-03-30T23:24:15.015568Z"
-modified: "2019-06-05T12:51:34.314Z"
+published: "2018-03-30T23:24:15Z"
+modified: "2020-07-17T21:03:44Z"
+position: 3
+category: "Primeros Pasos"
 ---
-
-# Soporte para Nuxt.js
 
 La configuración de este plugin con Nuxt.js es extremadamente simple y fácil.
 
@@ -178,7 +177,7 @@ Opcionalmente, puedes establecer un nombre personalizado para el estado en Vuex:
 
 ## Uso Avanzado
 
-Para obtener una guía completa sobre cómo usar este complemento, ve a la página [Primeros Pasos](./).
+Para obtener una guía completa sobre cómo usar este complemento, ve a la página [Primeros Pasos](/es/docs/vue-warehouse).
 
 ## Opciones
 

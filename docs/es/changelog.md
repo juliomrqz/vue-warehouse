@@ -1,27 +1,26 @@
 ---
 title: "Registro de Cambios"
 description: "Un registro de todos los cambios notables realizados en Vue.js Warehouse."
-permalink: /docs/vue-warehouse/changelog
 created: "2018-03-29T10:57:00Z"
-published: "2018-03-30T23:30:28.849920Z"
-modified: "2020-04-12T15:22:51Z"
+published: "2018-03-30T23:30:28Z"
+modified: "2020-07-17T21:03:44Z"
+position: 6
+category: "Primeros Pasos"
 ---
-
-# Registro de cambios
 
 Un registro de todos los cambios notables realizados en Vue.js Warehouse.
 
-# [2.1.0](https://github.com/juliomrqz/vue-warehouse/compare/v2.0.0...v2.1.0) (2020-04-12)
+## [2.1.0](https://github.com/juliomrqz/vue-warehouse/compare/v2.0.0...v2.1.0) (2020-04-12)
 
 * actualiza la empresa matriz
 
-# [2.0.0](https://github.com/juliomrqz/vue-warehouse/compare/v1.0.2...v2.0.0) (2019-11-28)
+## [2.0.0](https://github.com/juliomrqz/vue-warehouse/compare/v1.0.2...v2.0.0) (2019-11-28)
 
-## Funcionalidades
+### Funcionalidades
 
 * añade typings para Typescript y mejora le proceso de compilación ([9965dc](https://github.com/juliomrqz/vue-warehouse/commit/9965dc0f189b03eef99aed9d178e519abd9616a0))
 
-## Refactor
+### Refactor
 
 * refactor!: Elimina el soporte para Node.js 8 ([66e7da1](https://github.com/juliomrqz/vue-warehouse/commit/66e7da19e3ecfe4de2cf6d4e4b4b9d01ce6568e4))
 
