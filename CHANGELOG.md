@@ -1,3 +1,13 @@
+# [2.2.0](https://github.com/juliomrqz/vue-warehouse/compare/v2.1.0...v2.2.0) (2020-07-19)
+
+* dependencies updates
+
+### Refactor
+
+* update layout of docs articles ([c4f98cd](https://github.com/juliomrqz/nuxt-optimized-images/commit/c4f98cd9fc072a97787e0adbb9e0b20084586895))
+* update project owner ([a797e6e](https://github.com/juliomrqz/nuxt-optimized-images/commit/a797e6ead39e8e9261e7c1a3d224cee28c38b236))
+
+
 # [2.1.0](https://github.com/juliomrqz/vue-warehouse/compare/v2.0.0...v2.1.0) (2020-04-12)
 
 * update the parent company
