@@ -1,9 +1,9 @@
 ---
 title: "License"
 description: "Terms and conditions intended to guarantee how Vue.js Warehouse must be used, modified and/or shared."
-created: "2018-03-29T10:57:00Z"
-published: "2018-03-30T23:32:04Z"
-modified: "2020-07-17T21:03:44Z"
+createdAt: "2018-03-29T10:57:00Z"
+publishedAt: "2018-03-30T23:32:04Z"
+updatedAt: "2020-07-17T21:03:44Z"
 position: 7
 category: "Getting started"
 ---

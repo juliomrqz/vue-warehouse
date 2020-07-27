@@ -1,9 +1,9 @@
 ---
 title: "Getting Started"
 description: "A Cross-browser storage for Vue.js and Nuxt.js, with plugins support and easy extensibility based on Store.js."
-created: "2018-03-29T10:57:00Z"
-published: "2018-03-30T23:11:58Z"
-modified: "2020-07-17T21:03:44Z"
+createdAt: "2018-03-29T10:57:00Z"
+publishedAt: "2018-03-30T23:11:58Z"
+updatedAt: "2020-07-17T21:03:44Z"
 position: 1
 category: "Getting started"
 ---

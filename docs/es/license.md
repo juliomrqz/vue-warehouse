@@ -1,9 +1,9 @@
 ---
 title: "Licencia"
 description: "Los términos y condiciones pretenden garantizar cómo se debe usar, modificar y/o compartir Vue.js Warehouse."
-created: "2018-03-29T10:57:00Z"
-published: "2018-03-30T23:32:04Z"
-modified: "2020-07-17T21:03:44Z"
+createdAt: "2018-03-29T10:57:00Z"
+publishedAt: "2018-03-30T23:32:04Z"
+updatedAt: "2020-07-17T21:03:44Z"
 position: 7
 category: "Primeros Pasos"
 ---

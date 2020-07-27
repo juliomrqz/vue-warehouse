@@ -1,9 +1,9 @@
 ---
 title: "Vuex Support"
 description: "Vue.js Warehouse support for syncing the stored values changes with Vuex state."
-created: "2018-03-20T10:57:00Z"
-published: "2018-03-30T23:22:23Z"
-modified: "2020-07-17T21:03:44Z"
+createdAt: "2018-03-20T10:57:00Z"
+publishedAt: "2018-03-30T23:22:23Z"
+updatedAt: "2020-07-17T21:03:44Z"
 position: 2
 category: "Getting started"
 ---

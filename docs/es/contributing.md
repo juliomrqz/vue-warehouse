@@ -1,9 +1,9 @@
 ---
 title: "Contribución"
 description: "Pasos para facilitar el desarrollo y la depuración de Vue.js Warehouse."
-created: "2018-03-29T10:57:00Z"
-published: "2018-03-30T23:28:40Z"
-modified: "2020-07-17T21:03:44Z"
+createdAt: "2018-03-29T10:57:00Z"
+publishedAt: "2018-03-30T23:28:40Z"
+updatedAt: "2020-07-17T21:03:44Z"
 position: 5
 category: "Primeros Pasos"
 ---

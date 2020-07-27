@@ -1,9 +1,9 @@
 ---
 title: "Soporte para Nuxt.js"
 description: "Soporte de Vue.js Warehouse para Nuxt.js"
-created: "2018-03-29T10:57:00Z"
-published: "2018-03-30T23:24:15Z"
-modified: "2020-07-17T21:03:44Z"
+createdAt: "2018-03-29T10:57:00Z"
+publishedAt: "2018-03-30T23:24:15Z"
+updatedAt: "2020-07-17T21:03:44Z"
 position: 3
 category: "Primeros Pasos"
 ---
