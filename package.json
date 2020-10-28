@@ -88,7 +88,7 @@
     "cross-env": "7.0.2",
     "es6-promise": "4.2.8",
     "eslint": "7.12.1",
-    "eslint-config-standard": "14.1.1",
+    "eslint-config-standard": "15.0.1",
     "eslint-friendly-formatter": "4.0.1",
     "eslint-loader": "4.0.2",
     "eslint-plugin-import": "2.22.1",
