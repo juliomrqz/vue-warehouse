@@ -116,7 +116,7 @@
     "vue-template-compiler": "2.6.12",
     "vuex": "3.5.1",
     "webpack": "4.44.2",
-    "webpack-dev-middleware": "3.7.2"
+    "webpack-dev-middleware": "4.0.0"
   },
   "engines": {
     "node": ">= 10",
