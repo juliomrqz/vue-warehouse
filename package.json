@@ -84,7 +84,7 @@
     "babel-plugin-dynamic-import-node": "2.3.3",
     "chalk": "4.1.0",
     "codecov": "3.8.1",
-    "conventional-changelog-cli": "2.1.0",
+    "conventional-changelog-cli": "2.1.1",
     "cross-env": "7.0.2",
     "es6-promise": "4.2.8",
     "eslint": "7.12.1",
