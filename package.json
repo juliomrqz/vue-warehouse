@@ -98,7 +98,7 @@
     "eslint-plugin-vue-libs": "4.0.0",
     "express": "4.17.1",
     "express-urlrewrite": "1.4.0",
-    "husky": "4.3.8",
+    "husky": "7.0.4",
     "jest": "26.6.3",
     "rollup": "2.60.1",
     "rollup-plugin-buble": "0.19.8",
